@@ -1,0 +1,37 @@
+#main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.box-about {
+  width: 50%;
+}
+
+#main .box-img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.box-img span {
+  background-color: var(--text-color-pri);
+  border-radius: 12px;
+  display: inline-block;
+  width: 320px;
+  height: 452px;
+}
+
+.box-img span:nth-child(1) {
+  z-index: 3;
+}
+
+.box-img span:nth-child(2) {
+  background-color: var(--color-pri);
+  position: absolute;
+  transform: rotate(-15deg);
+}

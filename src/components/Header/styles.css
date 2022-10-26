@@ -1,0 +1,33 @@
+#header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  flex-wrap: wrap;
+}
+
+#header .logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 3rem;
+  font-weight: 500;
+  list-style: none;
+}
+
+.nav-item a {
+  color: var(--text-color-pri);
+  transition: color 0.25s;
+}
+
+.nav .nav-item:hover a {
+  color: var(--color-sec);
+}

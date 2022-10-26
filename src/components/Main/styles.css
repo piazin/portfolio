@@ -1,16 +1,60 @@
-#main {
+#container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 3rem 2rem 1rem 2rem;
 }
 
-.box-about {
+.about-container {
   width: 50%;
 }
+.about-container p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 70%;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
 
-#main .box-img {
+.about-box-title {
+  display: flex;
+  column-gap: 10px;
+  flex-direction: row;
+  padding-bottom: 1.5rem;
+}
+.about-text__my-name {
+  font-size: xx-large;
+}
+.about-box-title .about-text__my-name:nth-child(2) {
+  color: var(--color-pri);
+}
+
+.about-box-presentation {
+  align-items: center;
+  display: flex;
+  column-gap: 10px;
+  flex-direction: row;
+}
+.about-box-presentation .about-presentation-arrow {
+  width: 1.5rem;
+  background-color: var(--text-color-pri);
+  height: 0.2rem;
+}
+
+.about-box-presentation .about-presentation-text {
+  color: var(--color-sec);
+  font-size: 0.8rem;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+#container .box-img {
   width: 50%;
   display: flex;
   align-items: center;
@@ -27,6 +71,10 @@
 }
 
 .box-img span:nth-child(1) {
+  background-image: url("../../assets//nerd_smoking.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 3;
 }
 

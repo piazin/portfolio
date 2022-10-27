@@ -1,0 +1,30 @@
+.card-service {
+  background-color: var(--text-color-pri);
+  border-radius: 12px;
+  width: 30%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+.icon {
+  color: var(--color-pri);
+}
+
+.card-title,
+.card-description {
+  color: #000000;
+  font-weight: lighter;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+}
+
+.card-description {
+  text-align: center;
+}

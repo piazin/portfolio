@@ -1,0 +1,21 @@
+.about-box-presentation {
+  align-items: center;
+  display: flex;
+  column-gap: 10px;
+  flex-direction: row;
+}
+.about-box-presentation .about-presentation-arrow {
+  width: 1.5rem;
+  background-color: var(--text-color-pri);
+  height: 0.2rem;
+}
+
+.about-box-presentation .about-presentation-text {
+  color: var(--color-sec);
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.about-presentation-container .about-presentation-desc {
+  padding-top: 0.5rem;
+}

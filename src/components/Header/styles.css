@@ -23,11 +23,61 @@
   list-style: none;
 }
 
-.nav-item a {
+.nav-item .nav-link {
   color: var(--text-color-pri);
   transition: color 0.25s;
 }
 
-.nav .nav-item:hover a {
+.nav .nav-item:hover .nav-link {
   color: var(--color-sec);
+}
+
+.btn__dowload-cv {
+  background-color: transparent;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  border: 0.1rem solid var(--text-color-sec);
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 0.8rem;
+  overflow: hidden;
+  transition: background-color ease-in 0.25s;
+}
+
+.btn__dowload-cv .icon-btn {
+  margin-left: 0.2rem;
+  transition: all ease-in 0.25s;
+}
+
+.btn__dowload-cv .text-btn,
+i {
+  display: block;
+  transition: all ease-in 0.25s;
+}
+
+.btn__dowload-cv:hover {
+  background-color: var(--color-pri);
+}
+
+.btn__dowload-cv:hover .text-btn {
+  transform: translateX(-7.5rem);
+}
+
+.btn__dowload-cv:hover .icon-btn {
+  /* animation: btn-fade 1s ease-in-out infinite alternate; */
+  transform: translateX(-3.5rem);
+}
+
+.btn__dowload-cv:hover .icon-btn i {
+  animation: btn-fade 1s ease-in-out 0.25s infinite alternate;
+}
+
+@keyframes btn-fade {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0.4rem);
+  }
 }

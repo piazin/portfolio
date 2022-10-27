@@ -8,13 +8,27 @@ function Header() {
       <img className="logo" src={logo} alt="logo-pic"></img>
       <ul className="nav">
         <li className="nav-item">
-          <a href="#">Experience</a>
+          <a href="#" className="nav-link">
+            Experience
+          </a>
         </li>
         <li className="nav-item">
-          <a href="#">Services</a>
+          <a href="#" className="nav-link">
+            Services
+          </a>
         </li>
         <li className="nav-item">
-          <a href="#">Projects</a>
+          <a href="#" className="nav-link">
+            Projects
+          </a>
+        </li>
+        <li className="nav-item">
+          <a href="cv.pdf" download className="btn__dowload-cv">
+            <span className="text-btn">Download CV</span>
+            <span className="icon-btn">
+              <i className="bx bxs-download"></i>
+            </span>
+          </a>
         </li>
       </ul>
     </header>

@@ -1,4 +1,5 @@
-#container {
+#section-about,
+#section-services {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -17,19 +18,6 @@
   font-size: 1rem;
 }
 
-.about-box-title {
-  display: flex;
-  column-gap: 10px;
-  flex-direction: row;
-  padding-bottom: 1.5rem;
-}
-.about-text__my-name {
-  font-size: xx-large;
-}
-.about-box-title .about-text__my-name:nth-child(2) {
-  color: var(--color-pri);
-}
-
 .about-box-presentation {
   align-items: center;
   display: flex;
@@ -44,17 +32,40 @@
 
 .about-box-presentation .about-presentation-text {
   color: var(--color-sec);
-  font-size: 0.8rem;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.about-box-title {
+  display: flex;
+  column-gap: 10px;
+  flex-direction: row;
+  padding-bottom: 1.5rem;
+}
+.about-text__my-name {
+  font-size: 2.5rem;
+}
+.about-box-title .about-text__my-name:nth-child(2) {
+  color: var(--color-pri);
 }
 
 .icons-container {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.8rem;
   padding-top: 1rem;
 }
 
-#container .box-img {
+.icon-link .bx {
+  color: var(--text-color-pri);
+  transition: color 0.25s;
+}
+
+.icon-link:hover .bx {
+  color: var(--text-color-sec);
+}
+
+#section-about .box-img {
   width: 50%;
   display: flex;
   align-items: center;
@@ -71,7 +82,7 @@
 }
 
 .box-img span:nth-child(1) {
-  background-image: url("../../assets//nerd_smoking.png");
+  background-image: url("../../assets/nerd_smoking.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -82,4 +93,22 @@
   background-color: var(--color-pri);
   position: absolute;
   transform: rotate(-15deg);
+}
+
+/*SECTION SERVICES*/
+
+#section-services {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-services {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 4rem;
 }

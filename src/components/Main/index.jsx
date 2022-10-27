@@ -57,18 +57,19 @@ function Main() {
             </a>
           </div>
         </div>
-        <div className="box-img">
+        <div className="section-img">
           <span></span>
           <span></span>
         </div>
       </section>
 
+      {/* Section Services */}
       <section id="section-services">
         <SectionHeader name="services" description="Specialized in" />
         <div className="container-services">
           <CardServices
             title="Web Development"
-            description="lorem lorem lorem lorem lorem lorem lorem lorem"
+            description="Create and maintain your websites and also take care of its performance and traffic capacity."
             icon_type="bx-globe"
           />
           <CardServices
@@ -78,10 +79,15 @@ function Main() {
           />
           <CardServices
             title="Aplication Development"
-            description="lorem lorem lorem lorem lorem lorem lorem lorem"
+            description="Standard designing, building, and implementing your applications with documentation.
+            "
             icon_type="bxl-javascript"
           />
         </div>
+      </section>
+
+      <section id="section-projects">
+        <SectionHeader name="my works" description="Featured portfolios" />
       </section>
     </main>
   );

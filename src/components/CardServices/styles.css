@@ -1,7 +1,8 @@
 .card-service {
   background-color: var(--text-color-pri);
-  border-radius: 12px;
-  width: 30%;
+  border-radius: var(--default-border-radius);
+  width: 20rem;
+
   height: 250px;
   display: flex;
   align-items: center;
@@ -18,13 +19,10 @@
 .card-description {
   color: #000000;
   font-weight: lighter;
+  text-align: center;
 }
 
 .card-title {
   font-size: 1.5rem;
   padding: 1rem 0rem;
-}
-
-.card-description {
-  text-align: center;
 }

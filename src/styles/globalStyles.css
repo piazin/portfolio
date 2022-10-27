@@ -31,4 +31,6 @@ html {
   --text-color-pri: #f1f1f1;
   --text-color-sec: #c7c7c7ee;
   --bg-color: #1e1e1e;
+
+  --default-border-radius: 0.75rem;
 }

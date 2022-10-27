@@ -8,13 +8,13 @@ function Header() {
       <img className="logo" src={logo} alt="logo-pic"></img>
       <ul className="nav">
         <li className="nav-item">
-          <a href="#" className="nav-link">
-            Experience
+          <a href="#section-services" className="nav-link">
+            Services
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
-            Services
+          <a href="" className="nav-link">
+            Experience
           </a>
         </li>
         <li className="nav-item">

@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./styles.css";
 
+import Glider from "react-glider";
+import "glider-js/glider.min.css";
+
 import SectionHeader from "../SectionHeader";
 import CardServices from "../CardServices";
 import CardProject from "../CardProjects";

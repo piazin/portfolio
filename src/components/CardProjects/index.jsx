@@ -10,7 +10,7 @@ function CardProject({
 }) {
   return (
     <div
-      className="card-project"
+      className="card-project "
       style={{
         backgroundImage: `url(${
           background_image

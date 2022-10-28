@@ -2,13 +2,13 @@
   background-color: var(--text-color-pri);
   border-radius: var(--default-border-radius);
   width: 20rem;
-
   height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 1rem 2rem;
+  transform: translateX(-100%);
 }
 
 .icon {
@@ -25,4 +25,10 @@
 .card-title {
   font-size: 1.5rem;
   padding: 1rem 0rem;
+}
+
+@media (prefers-reduced-motion) {
+  .card-service {
+    transition: none;
+  }
 }

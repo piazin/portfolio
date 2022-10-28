@@ -37,3 +37,24 @@ html {
 
   --default-border-radius: 0.75rem;
 }
+
+.left-animation,
+.right-animation {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 0.7s;
+}
+
+.right-animation {
+  transform: translateY(100%);
+}
+.left-animation {
+  transform: translateX(100%);
+}
+
+.show-elements-animation {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transform: translateY(0);
+}

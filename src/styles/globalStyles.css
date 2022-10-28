@@ -39,17 +39,17 @@ html {
 }
 
 .left-animation,
-.right-animation {
+.up-animation {
   opacity: 0;
   filter: blur(5px);
   transition: all 0.7s;
 }
 
-.right-animation {
+.up-animation {
   transform: translateY(100%);
 }
-.left-animation {
-  transform: translateX(100%);
+.down-animation {
+  transform: translateY(-100%);
 }
 
 .show-elements-animation {

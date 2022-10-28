@@ -2,6 +2,10 @@
   padding-left: 4rem !important;
 }
 
+#section-services {
+  overflow-x: hidden;
+}
+
 #section-about,
 #section-services {
   display: flex;

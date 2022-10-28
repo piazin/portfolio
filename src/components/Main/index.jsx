@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 
 import SectionHeader from "../SectionHeader";
 import CardServices from "../CardServices";
+import CardProject from "../CardProjects";
 
 function Main() {
   return (
@@ -88,6 +89,30 @@ function Main() {
 
       <section id="section-projects">
         <SectionHeader name="my works" description="Featured portfolios" />
+
+        <div className="container-projects">
+          <CardProject
+            title="Api users"
+            name_repo="api-users"
+            stacks={["javascript", "nodejs"]}
+            background_image="https://blog.rocketseat.com.br/content/images/size/w600/2018/12/adonis-reactjs-react-native-1.png"
+          />
+
+          <CardProject
+            title="Redid blog"
+            name_repo="redid"
+            stacks={["javascript", "nodejs", "css3", "html5"]}
+            background_image="https://camo.githubusercontent.com/6f61540b84024e0c5d8acd34ec30c05fce6d990e40c094263fc56c5737ae456f/68747470733a2f2f696d61676573322e696d67626f782e636f6d2f39662f65642f47746571793972445f6f2e676966"
+          />
+
+          <CardProject
+            title="Portfolio"
+            name_repo="portfolio"
+            stacks={["javascript", "react", "css3"]}
+            background_image="https://blog.rocketseat.com.br/content/images/size/w1000/2020/07/ideias-inspiracoes-projetos-design-web-mobile.png"
+            link_to_live_app="https://portfolio-five-bay-45.vercel.app/"
+          />
+        </div>
       </section>
     </main>
   );

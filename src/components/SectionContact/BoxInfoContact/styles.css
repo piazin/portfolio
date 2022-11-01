@@ -1,0 +1,10 @@
+.box-info-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.text-box-info-contact {
+  color: var(--text-color-dark);
+}

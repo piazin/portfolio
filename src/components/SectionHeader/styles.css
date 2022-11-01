@@ -13,6 +13,7 @@
 .about-box-presentation .about-presentation-text {
   color: var(--color-sec);
   font-size: 1rem;
+  text-transform: lowercase;
   letter-spacing: 0.2rem;
 }
 

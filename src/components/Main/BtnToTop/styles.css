@@ -1,0 +1,14 @@
+#btn-to-top {
+  border-radius: 50%;
+  bottom: 1rem;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  background-color: var(--bg-color-dark);
+  position: fixed;
+  height: 3.5rem;
+  right: 1rem;
+  width: 3.5rem;
+  transition: all 0.25s;
+  z-index: 15;
+}

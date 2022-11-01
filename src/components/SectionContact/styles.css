@@ -1,0 +1,67 @@
+.hr-wave-background {
+  background-image: url("../../assets/wave.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+.content-contact-section {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#form-contact {
+  width: 55%;
+  padding: 1rem;
+}
+
+.form-input {
+  border-radius: var(--min-border-radius);
+  border: 1px solid transparent;
+  background-color: transparent;
+  padding: 1rem;
+  outline: none;
+}
+
+.form-input:focus,
+.form-input:active {
+  border: 1px solid var(--color-pri);
+}
+
+.form-input::placeholder {
+  font-size: 1rem;
+}
+
+.fieldset-form-contact {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.form-fields {
+  color: var(--text-color-dark);
+}
+
+#btn-send-form-contact {
+  background-color: var(--color-pri);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  border-radius: var(--min-border-radius);
+  padding: 1rem;
+}
+
+.info-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}

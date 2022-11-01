@@ -1,9 +1,15 @@
+#container {
+  position: relative;
+}
+
 #section-about {
   padding-left: 4rem !important;
 }
 
 #section-about,
-#section-services {
+#section-services,
+#section-works,
+#section-skills {
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -1,9 +1,13 @@
 import React from "react";
 import "./styles.css";
 
+import SectionWork from "../SectionWork";
 import SectionHeader from "../SectionHeader";
+import SectionSkills from "../SectionSkills";
+import SectionContact from "../SectionContact";
 import CardServices from "../CardServices";
 import CardProject from "../CardProjects";
+import ButtonToTop from "./BtnToTop";
 
 function Main() {
   return (
@@ -87,6 +91,7 @@ function Main() {
         </div>
       </section>
 
+      {/* Section Projects */}
       <section id="section-projects">
         <SectionHeader name="my works" description="Featured portfolios" />
 
@@ -114,6 +119,24 @@ function Main() {
           />
         </div>
       </section>
+
+      {/*Section Works*/}
+
+      <section id="section-works">
+        <SectionWork />
+      </section>
+
+      <section id="section-skills">
+        <SectionSkills />
+      </section>
+
+      <section id="section-contact">
+        <SectionContact />
+      </section>
+
+      {/*button to top*/}
+
+      <ButtonToTop />
     </main>
   );
 }

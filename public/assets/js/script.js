@@ -21,4 +21,7 @@ function animationElements(className) {
 window.addEventListener("load", () => {
   animationElements(".card-service");
   animationElements(".card-project");
+  animationElements(".container-work-info");
+  animationElements(".course-info");
+  animationElements(".technologies-skills");
 });

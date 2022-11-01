@@ -34,8 +34,10 @@ html {
   --bg-color-dark: #131313;
   --bg-color-lg: #f1f1f1;
   --text-color-dark: #1e1e1e;
+  --text-color-blue: #232e35;
 
   --default-border-radius: 0.75rem;
+  --min-border-radius: 0.3rem;
 }
 
 .left-animation,
@@ -48,8 +50,8 @@ html {
 .up-animation {
   transform: translateY(100%);
 }
-.down-animation {
-  transform: translateY(-100%);
+.left-animation {
+  transform: translateX(100%);
 }
 
 .show-elements-animation {

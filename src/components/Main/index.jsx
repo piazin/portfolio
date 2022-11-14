@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import animationElements from "../../scripts/script";
 
 import SectionWork from "../SectionWork";
 import SectionHeader from "../SectionHeader";
@@ -10,6 +11,14 @@ import CardProject from "../CardProjects";
 import ButtonToTop from "./BtnToTop";
 
 function Main() {
+  window.addEventListener("load", () => {
+    animationElements(".card-service");
+    animationElements(".card-project");
+    animationElements(".container-work-info");
+    animationElements(".course-info");
+    animationElements(".technologies-skills");
+  });
+
   return (
     <main id="container">
       <section id="section-about">

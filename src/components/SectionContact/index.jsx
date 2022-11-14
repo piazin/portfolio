@@ -8,12 +8,16 @@ function SectionContact() {
     <>
       <div className="hr-wave-background"></div>
       <div className="content-contact-section">
-        <form action="" id="form-contact">
+        <form
+          action="https://formsubmit.co/ls4803326@gmail.com"
+          id="form-contact"
+          method="post"
+        >
           <fieldset className="fieldset-form-contact">
             <input
               type="text"
               autoComplete="on"
-              name="user-name"
+              name="name"
               id="user-name"
               placeholder="Name"
               required
@@ -23,23 +27,32 @@ function SectionContact() {
             <input
               type="email"
               autoComplete="on"
-              name="user-email"
+              name="email"
               id="user-email"
               placeholder="Email"
               required
               className="form-fields form-input"
             />
+            <input type="hidden" name="_template" value="basic" />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://127.0.0.1:5173/"
+            ></input>
+            <input type="hidden" name="_captcha" value="false" />
           </fieldset>
           <fieldset className="fieldset-form-contact">
             <textarea
-              name="user-msg"
+              name="message"
               id="user-msg"
               cols="60"
               rows="10"
               placeholder="Mensagem"
               className="form-fields form-input"
             ></textarea>
-            <button id="btn-send-form-contact">Send</button>
+            <button id="btn-send-form-contact" type="submit">
+              Send
+            </button>
           </fieldset>
         </form>
         <div className="info-contact">

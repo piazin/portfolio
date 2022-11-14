@@ -2,12 +2,10 @@ export default function animationElements(className) {
   var elementsShown = [];
   var observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-      console.log(entry);
       if (elementsShown.includes(String(entry.target.className))) {
         return;
       }
       if (entry.isIntersecting) {
-        console.log(entry.isIntersecting);
         entry.target.classList.add("show-elements-animation");
         elementsShown.push(String(entry.target.className));
       } else {
@@ -19,11 +17,3 @@ export default function animationElements(className) {
   var cards = document.querySelectorAll(className);
   cards.forEach((card) => observer.observe(card));
 }
-
-window.addEventListener("load", () => {
-  animationElements(".card-service");
-  animationElements(".card-project");
-  animationElements(".container-work-info");
-  animationElements(".course-info");
-  animationElements(".technologies-skills");
-});

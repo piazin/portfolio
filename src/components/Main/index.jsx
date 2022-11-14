@@ -17,6 +17,7 @@ function Main() {
     animationElements(".container-work-info");
     animationElements(".course-info");
     animationElements(".technologies-skills");
+    console.log("load");
   });
 
   return (

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Translator from "../i18n/Translator";
 import "./styles.css";
 import animationElements from "../../scripts/amimationElements";
 
@@ -25,7 +26,9 @@ function Main() {
         <div className="about-container">
           <div className="about-box-presentation">
             <span className="about-presentation-arrow"></span>
-            <p className="about-presentation-text">hello my name is</p>
+            <p className="about-presentation-text">
+              <Translator path="main.hello_message" />
+            </p>
           </div>
           <div className="about-box-title">
             <h2 className="about-text__my-name">Lucas</h2>

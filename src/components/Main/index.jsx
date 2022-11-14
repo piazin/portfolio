@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles.css";
 import animationElements from "../../scripts/script";
 
@@ -11,14 +11,13 @@ import CardProject from "../CardProjects";
 import ButtonToTop from "./BtnToTop";
 
 function Main() {
-  window.addEventListener("load", () => {
+  useEffect(() => {
     animationElements(".card-service");
     animationElements(".card-project");
     animationElements(".container-work-info");
     animationElements(".course-info");
     animationElements(".technologies-skills");
-    console.log("load");
-  });
+  }, []);
 
   return (
     <main id="container">

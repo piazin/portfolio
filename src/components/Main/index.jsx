@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./styles.css";
-import animationElements from "../../scripts/script";
+import animationElements from "../../scripts/amimationElements";
 
 import SectionWork from "../SectionWork";
 import SectionHeader from "../SectionHeader";

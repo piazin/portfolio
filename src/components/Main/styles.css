@@ -149,4 +149,21 @@
 }
 
 @media (max-width: 768px) {
+  #section-about {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .about-container {
+    width: 100%;
+  }
+
+  .section-img {
+    width: 100%;
+  }
+
+  .section-img span {
+    width: 280px;
+    height: 380px;
+  }
 }

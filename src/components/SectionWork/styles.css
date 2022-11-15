@@ -102,3 +102,14 @@
 .activities-text {
   color: var(--text-color-sec);
 }
+
+@media (max-width: 920px) {
+  .content-work-section {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .list-business {
+    height: 11rem;
+  }
+}

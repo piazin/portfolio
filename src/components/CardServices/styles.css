@@ -32,3 +32,9 @@
     transition: none;
   }
 }
+
+@media (max-width: 950px) {
+  .card-service {
+    width: 15rem;
+  }
+}

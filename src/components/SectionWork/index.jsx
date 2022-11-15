@@ -65,15 +65,7 @@ function SectionWork() {
           businessLink="https://github.com/piazin"
           address="Mauá da Serra, Paraná"
           period="Jul 2021 - Present"
-          tech={[
-            "Node JS",
-            "React / React Native",
-            "APIs",
-            "AWS",
-            "HTML",
-            "CSS",
-            "JS",
-          ]}
+          tech={["Node JS", "React/Native", "APIs", "AWS", "HTML", "CSS", "JS"]}
           activities={[
             "Sites institucionais",
             "E-commerces",

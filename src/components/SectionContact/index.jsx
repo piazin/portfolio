@@ -45,7 +45,7 @@ function SectionContact() {
             <textarea
               name="message"
               id="user-msg"
-              cols="60"
+              cols="auto"
               rows="10"
               placeholder="Mensagem"
               className="form-fields form-input"

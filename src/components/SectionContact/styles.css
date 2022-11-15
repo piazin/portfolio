@@ -65,3 +65,15 @@
   flex-direction: column;
   gap: 4rem;
 }
+
+@media (max-width: 600px) {
+  .content-contact-section {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  #form-contact {
+    width: 100%;
+  }
+}

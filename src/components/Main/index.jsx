@@ -27,7 +27,7 @@ function Main() {
           <div className="about-box-presentation">
             <span className="about-presentation-arrow"></span>
             <p className="about-presentation-text">
-              <Translator path="main.hello_message" />
+              <Translator path="main.about" />
             </p>
           </div>
           <div className="about-box-title">
@@ -35,9 +35,7 @@ function Main() {
             <h2 className="about-text__my-name">Souza.</h2>
           </div>
           <p>
-            Creative front-end developer with more than +2 years of experience
-            in enterprise companies and startups. Proficient in Html, Tailwind
-            Css, Javascript and React. Passionate about UI/UX
+            <Translator path="main.intro" />
           </p>
           <div className="icons-container">
             <a
@@ -57,7 +55,7 @@ function Main() {
               <i className="bx bxl-linkedin bx-sm"></i>
             </a>
             <a
-              href="https://www.instagram.com/lucas_souzalfs/"
+              href="https://www.instagram.com/lucassouzalfs/"
               target="_blank"
               rel="external"
               className="icon-link"
@@ -82,22 +80,30 @@ function Main() {
 
       {/* Section Services */}
       <section id="section-services">
-        <SectionHeader name="services" description="Specialized in" />
+        <SectionHeader
+          name={<Translator path="section_header.services" />}
+          description={<Translator path="section_header.services_describe" />}
+        />
         <div className="container-services">
           <CardServices
-            title="Web Development"
-            description="Create and maintain your websites and also take care of its performance and traffic capacity."
+            title={<Translator path="card_services.web_dev.title" />}
+            description={
+              <Translator path="card_services.web_dev.description" />
+            }
             icon_type="bx-globe"
           />
           <CardServices
-            title="Node JS"
-            description="lorem lorem lorem lorem lorem lorem lorem lorem"
+            title={<Translator path="card_services.node_js.title" />}
+            description={
+              <Translator path="card_services.node_js.description" />
+            }
             icon_type="bxl-nodejs"
           />
           <CardServices
-            title="Aplication Development"
-            description="Standard designing, building, and implementing your applications with documentation.
-            "
+            title={<Translator path="card_services.app_dev.title" />}
+            description={
+              <Translator path="card_services.app_dev.description" />
+            }
             icon_type="bxl-javascript"
           />
         </div>
@@ -105,7 +111,10 @@ function Main() {
 
       {/* Section Projects */}
       <section id="section-projects">
-        <SectionHeader name="my works" description="Featured portfolios" />
+        <SectionHeader
+          name={<Translator path="section_header.projects" />}
+          description={<Translator path="section_header.projects_describe" />}
+        />
 
         <div className="container-projects">
           <CardProject

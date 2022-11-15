@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import "./styles.css";
+
+// import translate
+import Translator from "../i18n/Translator";
+
+// import components
 import SectionHeader from "../SectionHeader";
 import ContainerWorkInfo from "./ContainerWorkInfo";
 
@@ -13,7 +18,10 @@ function SectionWork() {
   return (
     <div className="content-work-section">
       <div className="container-business">
-        <SectionHeader name="career path" description="Work Experices" />
+        <SectionHeader
+          name={<Translator path="section_header.experience" />}
+          description={<Translator path="section_header.experience_describe" />}
+        />
         <ul className="list-business">
           <li
             className={`select-business ${

@@ -18,7 +18,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  column-gap: 3rem;
+  column-gap: 2rem;
   font-weight: 500;
   list-style: none;
 }
@@ -33,6 +33,8 @@
 }
 
 .btn__dowload-cv {
+  align-items: center;
+  justify-content: center;
   background-color: transparent;
   border-radius: 0.2rem;
   cursor: pointer;
@@ -43,6 +45,7 @@
   padding: 0.5rem 0.8rem;
   overflow: hidden;
   transition: background-color ease-in 0.25s;
+  width: 10rem;
 }
 
 .btn__dowload-cv .icon-btn {

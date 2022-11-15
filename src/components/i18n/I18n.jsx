@@ -11,12 +11,21 @@ const I18n = () => {
   const selectedLanguage = i18n.language;
   return (
     <>
-      <button onClick={() => handleChangeLanguage("pt-BR")}>
-        Change Language to PT-BR
-      </button>
-      <button onClick={() => handleChangeLanguage("en-US")}>
-        Mudar linguagem para EN-US
-      </button>
+      {selectedLanguage == "pt-BR" ? (
+        <p
+          onClick={() => handleChangeLanguage("en-US")}
+          style={{ cursor: "pointer" }}
+        >
+          EN-US
+        </p>
+      ) : (
+        <p
+          onClick={() => handleChangeLanguage("pt-BR")}
+          style={{ cursor: "pointer" }}
+        >
+          PT-BR
+        </p>
+      )}
     </>
   );
 };

@@ -1,6 +1,10 @@
 import React from "react";
 import "./styles.css";
 
+// import translate
+import Translator from "../i18n/Translator";
+
+// import components
 import SectionHeader from "../SectionHeader";
 
 // import logos

@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Translator from "../i18n/Translator";
 
 import BoxInfoContact from "./BoxInfoContact";
 
@@ -51,12 +52,16 @@ function SectionContact() {
               className="form-fields form-input"
             ></textarea>
             <button id="btn-send-form-contact" type="submit">
-              Send
+              <Translator path="form_contact.btn_text" />
             </button>
           </fieldset>
         </form>
         <div className="info-contact">
-          <BoxInfoContact icon="bxs-phone" desc="43 9999-9999" title="Phone" />
+          <BoxInfoContact
+            icon="bxs-phone"
+            desc="43 9999-9999"
+            title={<Translator path="footer.phone" />}
+          />
           <BoxInfoContact
             icon="bx-envelope"
             desc="ls4803326@gmail.com"
@@ -65,7 +70,7 @@ function SectionContact() {
           <BoxInfoContact
             icon="bx-current-location"
             desc="Mauá da Serra, PR"
-            title="Addres"
+            title={<Translator path="footer.addres" />}
           />
         </div>
       </div>

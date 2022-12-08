@@ -39,5 +39,47 @@ export default {
           "Projetar, construir e implementar padrões de seus aplicativos com documentação.",
       },
     },
+
+    section_works: {
+      sl_part: {
+        actives: {
+          1: "Suporte de Tecnico",
+          2: "Manutenção de computadores",
+          3: "Gerenciamento de Servidores com VMWare",
+        },
+      },
+      freelancer: {
+        actives: {
+          1: "Sites institucionais",
+          2: "E-commerces",
+          3: "Sistemas de controle",
+        },
+      },
+    },
+
+    section_skills: {
+      title: "Educação e Habilidades",
+      sub_title: "CAMINHO DE APRENDIZAGEM",
+      education_history: {
+        1: "Analise e Desenvolvimento de Sistemas",
+        2: "Formação Full Stack JS",
+        3: "Ensino Medio",
+      },
+      more_about:
+        "Por mais de 2 anos, tenho aprendido continuamente na área de front-end e experimentado novas tecnologias e estruturas, e aqui você pode ver um resumo de minhas habilidades",
+      tecs: "Tecnologias",
+      tools: "Ferramentas",
+    },
+
+    footer: {
+      phone: "Telefone",
+      addres: "Endereço",
+    },
+
+    form_contact: {
+      name: "Nome",
+      msg: "Mensagem",
+      btn_text: "Enviar",
+    },
   },
 };

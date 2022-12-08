@@ -29,7 +29,10 @@ export default function SectionSkills() {
   return (
     <div className="content-skills-section">
       <header className="header-skills">
-        <SectionHeader name="LEARNING PATH" description="Education & Skills" />
+        <SectionHeader
+          name={<Translator path="section_skills.sub_title" />}
+          description={<Translator path="section_skills.title" />}
+        />
       </header>
       <main className="main-skills">
         <div className="list-education">
@@ -43,18 +46,22 @@ export default function SectionSkills() {
               <div className="course-info up-animation">
                 <p className="institution-name">UniFil</p>
                 <p className="course-name">
-                  Analise e Desenvolvimento de Sistemas
+                  <Translator path="section_skills.education_history.1" />
                 </p>
                 <p className="course-period">2021 - 2023</p>
               </div>
               <div className="course-info up-animation">
                 <p className="institution-name">One Bit Code</p>
-                <p className="course-name">Formação Full Stack JS</p>
+                <p className="course-name">
+                  <Translator path="section_skills.education_history.2" />
+                </p>
                 <p className="course-period">2021 - 2022</p>
               </div>
               <div className="course-info up-animation">
                 <p className="institution-name">João Plath</p>
-                <p className="course-name">Ensino Medio</p>
+                <p className="course-name">
+                  <Translator path="section_skills.education_history.3" />
+                </p>
                 <p className="course-period">2018 - 2020</p>
               </div>
             </div>
@@ -62,13 +69,13 @@ export default function SectionSkills() {
         </div>
         <div className="list-skills">
           <p className="desc-skills">
-            For 2+ years, I have been continuously learning in the field of
-            front-end and experimenting with new technologies and frameworks,
-            and here you can see a summary of my skills.
+            <Translator path="section_skills.more_about" />
           </p>
 
           <div className="box-tech-skills">
-            <h3 className="title-box-skills">Technologies</h3>
+            <h3 className="title-box-skills">
+              <Translator path="section_skills.tecs" />
+            </h3>
             <img
               src={JSLogo}
               alt="node-logo"
@@ -116,7 +123,9 @@ export default function SectionSkills() {
           </div>
 
           <div className="box-tools-skills">
-            <h3 className="title-box-skills">Tools</h3>
+            <h3 className="title-box-skills">
+              <Translator path="section_skills.tools" />
+            </h3>
             <img
               src={VSLogo}
               alt="node-logo"

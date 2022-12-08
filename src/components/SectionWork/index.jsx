@@ -53,9 +53,9 @@ function SectionWork() {
           period="Out 2021 - Present - Full-time"
           tech={["AD", "Servers", "VM", "Linux", "Zabbix"]}
           activities={[
-            "Suporte Tecnico",
-            "Manutenção de computadores",
-            "Gerenciamento de Servidores VM Ware",
+            <Translator path="section_works.sl_part.actives.1" />,
+            <Translator path="section_works.sl_part.actives.2" />,
+            <Translator path="section_works.sl_part.actives.3" />,
           ]}
         />
       ) : toggleState == 2 ? (
@@ -67,9 +67,9 @@ function SectionWork() {
           period="Jul 2021 - Present"
           tech={["Node JS", "React/Native", "APIs", "AWS", "HTML", "CSS", "JS"]}
           activities={[
-            "Sites institucionais",
-            "E-commerces",
-            "Sistemas de controle",
+            <Translator path="section_works.freelancer.actives.1" />,
+            <Translator path="section_works.freelancer.actives.2" />,
+            <Translator path="section_works.freelancer.actives.3" />,
           ]}
         />
       ) : (

@@ -23,8 +23,8 @@ function ContainerWorkInfo({
         <address className="address-work">{address}</address>
         <p className="period-work">{period}</p>
         <div className="tech-used">
-          {tech.slice(0, 4).map((tec) => (
-            <span key={tec}>{tec}</span>
+          {tech.slice(0, 4).map((tec, index) => (
+            <span key={index}>{tec}</span>
           ))}
           and more...
         </div>
@@ -33,8 +33,8 @@ function ContainerWorkInfo({
       <span className="hr-container-work"></span>
 
       <div className="box-business-activities">
-        {activities.map((active) => (
-          <div className="activities-desc" key={active}>
+        {activities.map((active, index) => (
+          <div className="activities-desc" key={index}>
             <span></span>
             <p className="activities-text">{active}</p>
           </div>

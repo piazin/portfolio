@@ -40,6 +40,44 @@ export default {
       },
     },
 
-    section_skills: {},
+    section_works: {
+      sl_part: {
+        actives: {
+          1: "Technical support",
+          2: "Computer maintenance",
+          3: "VMWare Server Management",
+        },
+      },
+      freelancer: {
+        actives: {
+          1: "Institutional sites",
+          2: "E-commerces",
+          3: "Control system",
+        },
+      },
+    },
+
+    section_skills: {
+      title: "Education & Skills",
+      sub_title: "LEARNING PATH",
+      education_history: {
+        1: "Analysis and systems development",
+        2: "Full Stack JS Training",
+        3: "High school",
+      },
+      more_about:
+        "For 2+ years, I have been continuously learning in the field of front-end and experimenting with new technologies and frameworks, and here you can see a summary of my skills.",
+      tecs: "Technologies",
+      tools: "Tools",
+    },
+
+    footer: {
+      phone: "Phone",
+      addres: "Addres",
+    },
+
+    form_contact: {
+      btn_text: "Send",
+    },
   },
 };

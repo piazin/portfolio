@@ -119,4 +119,8 @@
   .list-skills {
     width: 90%;
   }
+
+  .list-education {
+    width: 100%;
+  }
 }

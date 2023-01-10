@@ -76,6 +76,25 @@ i {
   animation: btn-fade 1s ease-in-out 0.25s infinite alternate;
 }
 
+.menu-hamburguer-mobile {
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+
+.menu-hamburguer-mobile span {
+  width: 35px;
+  height: 7px;
+  display: inline-block;
+  background-color: var(--color-sec);
+  position: absolute;
+  left: 0;
+}
+
+.check:checked span {
+  background-color: blueviolet;
+}
+
 @keyframes btn-fade {
   from {
     transform: translateY(0rem);
@@ -97,5 +116,6 @@ i {
     z-index: 5;
     position: absolute;
     gap: 1rem;
+    transform: translateX(45rem);
   }
 }

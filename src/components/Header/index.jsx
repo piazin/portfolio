@@ -45,6 +45,13 @@ function Header() {
           </a>
         </li>
       </ul>
+      <label htmlFor="check" className="menu-hamburguer-mobile">
+        <input id="check" type="checkbox" hidden />
+
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
     </header>
   );
 }

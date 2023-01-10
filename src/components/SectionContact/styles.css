@@ -76,4 +76,9 @@
   #form-contact {
     width: 100%;
   }
+
+  .info-contact {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+  }
 }

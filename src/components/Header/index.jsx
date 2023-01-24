@@ -1,8 +1,8 @@
-import React from "react";
-import Translator from "../i18n/Translator";
-import I18n from "../i18n/I18n";
-import logo from "../../assets/logo.png";
-import "./styles.css";
+import React from 'react';
+import Translator from '../i18n/Translator';
+import I18n from '../i18n/I18n';
+import logo from '../../assets/logo.png';
+import './styles.css';
 
 function Header() {
   return (
@@ -36,7 +36,7 @@ function Header() {
         <li className="nav-item">
           <a href="cv.pdf" download className="btn__dowload-cv">
             <span className="text-btn">
-              {" "}
+              {' '}
               <Translator path="header.download_cv" />
             </span>
             <span className="icon-btn">
@@ -45,13 +45,13 @@ function Header() {
           </a>
         </li>
       </ul>
-      <label htmlFor="check" className="menu-hamburguer-mobile">
+      {/* <label htmlFor="check" className="menu-hamburguer-mobile">
         <input id="check" type="checkbox" hidden />
 
         <span></span>
         <span></span>
         <span></span>
-      </label>
+      </label> */}
     </header>
   );
 }

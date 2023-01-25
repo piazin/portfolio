@@ -12,3 +12,9 @@
   transition: all 0.25s;
   z-index: 15;
 }
+
+@media (max-width: 360px) {
+  #btn-to-top {
+    display: none;
+  }
+}

@@ -65,6 +65,13 @@
   color: var(--text-color-sec);
 }
 
+.tech-used {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 0.4rem;
+}
+
 .tech-used span {
   border-radius: var(--min-border-radius);
   border: 1px solid var(--text-color-sec);

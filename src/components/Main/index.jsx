@@ -136,16 +136,16 @@ function Main() {
           <CardProject
             title="Portfolio"
             name_repo="portfolio"
-            description="Portifolio deselvolvido em React JS"
+            description="Portifolio desenvolvido em React JS"
             stacks={['javascript', 'react', 'css3']}
             background_image="https://raw.githubusercontent.com/piazin/portfolio/main/src/assets/preview.png"
             link_to_live_app="https://portfolio-five-bay-45.vercel.app/"
           />
 
           <CardProject
-            title="App CFP"
+            title="APP CFP"
             name_repo="mobile-cfp"
-            description="Controle Financeiro Pessoal"
+            description="Controle financeiro pessoal"
             stacks={['javascript', 'react', 'css3']}
             background_image="https://blog.rocketseat.com.br/content/images/size/w2000/2018/12/5-erros-comuns-de-um-desenvolvedor-react-react-native.png"
           />
@@ -156,6 +156,14 @@ function Main() {
             description="Chat Bot feito para aberturas de chamados do T.I"
             stacks={['nodejs', 'typescript']}
             background_image="https://cdn.elearningindustry.com/wp-content/uploads/2022/12/shutterstock_1180950625.jpg"
+          />
+
+          <CardProject
+            title="API USERS"
+            name_repo="api-users"
+            description="API REST de cadastro de usuários"
+            stacks={['nodejs', 'javascript', 'postgresql']}
+            background_image="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/06/o-que-e-hateoas-400x280.png"
           />
         </div>
       </section>

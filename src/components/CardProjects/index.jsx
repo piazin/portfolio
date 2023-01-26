@@ -4,6 +4,7 @@ import './styles.css';
 
 function CardProject({
   title,
+  description,
   name_repo,
   stacks,
   background_image,
@@ -34,6 +35,7 @@ function CardProject({
 
       <div className="card-project-box-description">
         <h3 className="card-project-title">{title}</h3>
+        <p className="card-project-text-description">{description}</p>
         <div className="card-project-content-description">
           <span className="card-project-stacks">
             {stacks?.map((stack) => (
@@ -54,7 +56,9 @@ function CardProject({
                       ? '#E54C21'
                       : stack == 'react'
                       ? '#61DBFB'
-                      : '#1e1e1e'
+                      : stack == 'mongodb'
+                      ? '#6CAC49'
+                      : (stack = 'google-cloud' ? '#FFFFFF' : '#1e1e1e')
                   }`,
                 }}
               ></i>

@@ -1,5 +1,5 @@
 .card-project {
-  background-image: url("https://i.kym-cdn.com/entries/icons/facebook/000/023/419/nerd_smoking.jpg");
+  background-image: url('https://i.kym-cdn.com/entries/icons/facebook/000/023/419/nerd_smoking.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -15,7 +15,7 @@
   border-bottom-right-radius: var(--default-border-radius);
   border-bottom-left-radius: var(--default-border-radius);
   box-shadow: 1px 1px 15px 0px rgba(5, 5, 5, 0.459);
-  height: 100px;
+  height: 124px;
   bottom: 0;
   left: 0;
   position: absolute;
@@ -27,6 +27,12 @@
 .card-project-stacks {
   color: var(--text-color-pri);
   padding: 0.6rem;
+}
+
+.card-project-text-description {
+  padding-left: 0.6rem;
+  color: var(--text-color-sec);
+  font-size: 0.8rem;
 }
 
 .card-project-content-description {

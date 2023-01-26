@@ -118,15 +118,17 @@ function Main() {
 
         <div className="container-projects">
           <CardProject
-            title="API Users"
-            name_repo="api-users"
-            stacks={['javascript', 'nodejs']}
+            title="API REST CFP"
+            description="API de movimentações financeiras, deselvolvida para meu TCC da faculdade."
+            name_repo="api-rest-cfp"
+            stacks={['typescript', 'nodejs', 'mongodb', 'google-cloud']}
             background_image="https://blog.rocketseat.com.br/content/images/size/w600/2018/12/adonis-reactjs-react-native-1.png"
           />
 
           <CardProject
             title="Redid Blog"
             name_repo="redid"
+            description="Pequeno blog de noticias techs"
             stacks={['javascript', 'nodejs', 'css3', 'html5']}
             background_image="https://camo.githubusercontent.com/6f61540b84024e0c5d8acd34ec30c05fce6d990e40c094263fc56c5737ae456f/68747470733a2f2f696d61676573322e696d67626f782e636f6d2f39662f65642f47746571793972445f6f2e676966"
           />
@@ -134,9 +136,26 @@ function Main() {
           <CardProject
             title="Portfolio"
             name_repo="portfolio"
+            description="Portifolio deselvolvido em React JS"
             stacks={['javascript', 'react', 'css3']}
-            background_image="https://blog.rocketseat.com.br/content/images/size/w1000/2020/07/ideias-inspiracoes-projetos-design-web-mobile.png"
+            background_image="public/preview.png"
             link_to_live_app="https://portfolio-five-bay-45.vercel.app/"
+          />
+
+          <CardProject
+            title="App CFP"
+            name_repo="mobile-cfp"
+            description="Controle Financeiro Pessoal"
+            stacks={['javascript', 'react', 'css3']}
+            background_image="https://blog.rocketseat.com.br/content/images/size/w2000/2018/12/5-erros-comuns-de-um-desenvolvedor-react-react-native.png"
+          />
+
+          <CardProject
+            title="Chat Bot"
+            name_repo="bot-zap"
+            description="Chat Bot feito para aberturas de chamados do T.I"
+            stacks={['nodejs', 'typescript']}
+            background_image="https://cdn.elearningindustry.com/wp-content/uploads/2022/12/shutterstock_1180950625.jpg"
           />
         </div>
       </section>

@@ -1,8 +1,8 @@
-import React from "react";
-import "./styles.css";
-import Translator from "../i18n/Translator";
+import React from 'react';
+import './styles.css';
+import Translator from '../i18n/Translator';
 
-import BoxInfoContact from "./BoxInfoContact";
+import BoxInfoContact from './BoxInfoContact';
 
 function SectionContact() {
   return (
@@ -38,7 +38,7 @@ function SectionContact() {
             <input
               type="hidden"
               name="_next"
-              value="http://127.0.0.1:5173/"
+              value="https://portfolio-five-bay-45.vercel.app/"
             ></input>
             <input type="hidden" name="_captcha" value="false" />
           </fieldset>

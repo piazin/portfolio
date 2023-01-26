@@ -1,29 +1,30 @@
-import React from "react";
-import "./styles.css";
+import React from 'react';
+import './styles.css';
 
 // import translate
-import Translator from "../i18n/Translator";
+import Translator from '../i18n/Translator';
 
 // import components
-import SectionHeader from "../SectionHeader";
+import SectionHeader from '../SectionHeader';
 
 // import logos
-import NodeLogo from "../../assets/svg/tech/nodejs-icon.svg";
-import JSLogo from "../../assets/svg/tech/js_logo.svg";
-import EXLogo from "../../assets/svg/tech/expressjs-icon.svg";
-import MongoLogo from "../../assets/svg/tech/mongodb-icon.svg";
-import MySqlLogo from "../../assets/svg/tech/mysql-icon.svg";
-import AwsLogo from "../../assets/svg/tech/amazon_aws-icon.svg";
-import ExpoLogo from "../../assets/svg/tech/expoio-icon.svg";
-import HtmlLogo from "../../assets/svg/tech/w3_html5-icon.svg";
-import CssLogo from "../../assets/svg/tech/w3_css-icon.svg";
+import NodeLogo from '../../assets/svg/tech/nodejs-icon.svg';
+import JSLogo from '../../assets/svg/tech/js_logo.svg';
+import EXLogo from '../../assets/svg/tech/expressjs-icon.svg';
+import MongoLogo from '../../assets/svg/tech/mongodb-icon.svg';
+import PostSQLLogo from '../../assets/svg/tech/postgresql-icon.svg';
+import AwsLogo from '../../assets/svg/tech/amazon_aws-icon.svg';
+import ReactLogo from '../../assets/svg/tech/react.svg';
+import JestLogo from '../../assets/svg/tech/jest-2.svg';
+import TypeScriptLogo from '../../assets/svg/tech/typescript.svg';
+import PrismaLogo from '../../assets/svg/tech/prisma-4.svg';
 
-import VSLogo from "../../assets/svg/tools/visualstudio_code-icon.svg";
-import GitLogo from "../../assets/svg/tools/git-scm-icon.svg";
-import GitHubLogo from "../../assets/svg/tools/github-icon.svg";
-import PostmanLogo from "../../assets/svg/tools/getpostman-icon.svg";
-import VMLogo from "../../assets/svg/tools/logo_vmware.svg";
-import ViteLogo from "../../assets/svg/tools/vitejs.svg";
+import VSLogo from '../../assets/svg/tools/visualstudio_code-icon.svg';
+import GitLogo from '../../assets/svg/tools/git-scm-icon.svg';
+import GitHubLogo from '../../assets/svg/tools/github-icon.svg';
+import PostmanLogo from '../../assets/svg/tools/getpostman-icon.svg';
+import VMLogo from '../../assets/svg/tools/logo_vmware.svg';
+import DockerLogo from '../../assets/svg/tools/docker.svg';
 
 export default function SectionSkills() {
   return (
@@ -82,6 +83,11 @@ export default function SectionSkills() {
               className="technologies-skills left-animation"
             />
             <img
+              src={TypeScriptLogo}
+              alt="node-logo"
+              className="technologies-skills left-animation"
+            />
+            <img
               src={NodeLogo}
               alt="node-logo"
               className="technologies-skills left-animation"
@@ -98,25 +104,19 @@ export default function SectionSkills() {
               className="technologies-skills left-animation"
             />
             <img
-              src={MySqlLogo}
+              src={PostSQLLogo}
               alt="node-logo"
               className="technologies-skills left-animation"
             />
 
             <img
-              src={ExpoLogo}
+              src={PrismaLogo}
               alt="node-logo"
               className="technologies-skills left-animation"
             />
 
             <img
-              src={HtmlLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
-
-            <img
-              src={CssLogo}
+              src={JestLogo}
               alt="node-logo"
               className="technologies-skills left-animation"
             />
@@ -151,13 +151,13 @@ export default function SectionSkills() {
             />
 
             <img
-              src={VMLogo}
+              src={DockerLogo}
               alt="node-logo"
               className="technologies-skills left-animation"
             />
 
             <img
-              src={ViteLogo}
+              src={VMLogo}
               alt="node-logo"
               className="technologies-skills left-animation"
             />

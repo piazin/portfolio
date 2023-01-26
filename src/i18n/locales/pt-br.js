@@ -41,6 +41,10 @@ export default {
       },
     },
 
+    card_projects: {
+      view_in: 'ver em',
+    },
+
     section_works: {
       sl_part: {
         actives: {

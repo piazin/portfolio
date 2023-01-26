@@ -1,5 +1,6 @@
-import React from "react";
-import "./styles.css";
+import React from 'react';
+import Translator from '../i18n/Translator';
+import './styles.css';
 
 function CardProject({
   title,
@@ -15,7 +16,7 @@ function CardProject({
         backgroundImage: `url(${
           background_image
             ? background_image
-            : "https://i.kym-cdn.com/entries/icons/facebook/000/023/419/nerd_smoking.jpg"
+            : 'https://i.kym-cdn.com/entries/icons/facebook/000/023/419/nerd_smoking.jpg'
         })`,
       }}
     >
@@ -41,19 +42,19 @@ function CardProject({
                 className={`bx bxl-${stack} bx-sm icon`}
                 style={{
                   color: `${
-                    stack == "javascript"
-                      ? "#EFD81D"
-                      : stack == "nodejs"
-                      ? "#75AD63"
-                      : stack == "typescript"
-                      ? "#2f74c0"
-                      : stack == "css3"
-                      ? "#264DE4"
-                      : stack == "html5"
-                      ? "#E54C21"
-                      : stack == "react"
-                      ? "#61DBFB"
-                      : "#1e1e1e"
+                    stack == 'javascript'
+                      ? '#EFD81D'
+                      : stack == 'nodejs'
+                      ? '#75AD63'
+                      : stack == 'typescript'
+                      ? '#2f74c0'
+                      : stack == 'css3'
+                      ? '#264DE4'
+                      : stack == 'html5'
+                      ? '#E54C21'
+                      : stack == 'react'
+                      ? '#61DBFB'
+                      : '#1e1e1e'
                   }`,
                 }}
               ></i>
@@ -68,7 +69,7 @@ function CardProject({
               rel="external"
               className="link-to-github"
             >
-              view in
+              <Translator path="card_projects.view_in" />
             </a>
             <i className="bx bxl-github icon"></i>
           </div>

@@ -23,6 +23,10 @@ export default {
       skills_describe: 'Skills',
     },
 
+    card_projects: {
+      view_in: 'view in',
+    },
+
     card_services: {
       web_dev: {
         title: 'Web Development',

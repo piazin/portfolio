@@ -138,7 +138,7 @@ function Main() {
             name_repo="portfolio"
             description="Portifolio deselvolvido em React JS"
             stacks={['javascript', 'react', 'css3']}
-            background_image="public/preview.png"
+            background_image="https://raw.githubusercontent.com/piazin/portfolio/main/src/assets/preview.png"
             link_to_live_app="https://portfolio-five-bay-45.vercel.app/"
           />
 

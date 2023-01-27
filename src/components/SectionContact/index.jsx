@@ -1,21 +1,70 @@
-import React from 'react';
 import './styles.css';
+import axios from 'axios';
+import Swal from 'sweetalert2';
+import React, { useState } from 'react';
 import Translator from '../i18n/Translator';
 
 import BoxInfoContact from './BoxInfoContact';
 
 function SectionContact() {
+  const [fields, setFields] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const [fieldsLoading, setFieldsLoading] = useState(false);
+
+  async function submitForm(e) {
+    e.preventDefault();
+    setFieldsLoading(true);
+
+    try {
+      var result = await axios.post(
+        'http://localhost:3333/send/ls4803326@gmail.com',
+        fields
+      );
+      setFieldsLoading(false);
+    } catch (error) {
+      setFieldsLoading(false);
+      console.error('🚀 ~ error', error.message);
+    }
+  }
+
+  const changeFields = (e) =>
+    setFields({
+      ...fields,
+      [e.target.name]: e.target.value,
+    });
+
+  const t = () => {
+    const Toast = Swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 3000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.addEventListener('mouseenter', Swal.stopTimer);
+        toast.addEventListener('mouseleave', Swal.resumeTimer);
+      },
+    });
+
+    Toast.fire({
+      icon: 'success',
+      title: 'Signed in successfully',
+    });
+  };
+
   return (
     <>
       <div className="hr-wave-background"></div>
       <div className="content-contact-section">
-        <form
-          action="https://formsubmit.co/ls4803326@gmail.com"
-          id="form-contact"
-          method="post"
-        >
+        <form id="form-contact">
           <fieldset className="fieldset-form-contact">
             <input
+              value={fields.name}
+              onChange={changeFields}
               type="text"
               autoComplete="on"
               name="name"
@@ -23,9 +72,12 @@ function SectionContact() {
               placeholder="Name"
               required
               className="form-fields form-input"
+              disabled={fieldsLoading}
             />
 
             <input
+              value={fields.email}
+              onChange={changeFields}
               type="email"
               autoComplete="on"
               name="email"
@@ -33,25 +85,27 @@ function SectionContact() {
               placeholder="Email"
               required
               className="form-fields form-input"
+              disabled={fieldsLoading}
             />
-            <input type="hidden" name="_template" value="basic" />
-            <input
-              type="hidden"
-              name="_next"
-              value="https://portfolio-five-bay-45.vercel.app/"
-            ></input>
-            <input type="hidden" name="_captcha" value="false" />
           </fieldset>
           <fieldset className="fieldset-form-contact">
             <textarea
+              value={fields.message}
+              onChange={changeFields}
               name="message"
               id="user-msg"
               cols="auto"
               rows="10"
               placeholder="Mensagem"
               className="form-fields form-input"
+              disabled={fieldsLoading}
             ></textarea>
-            <button id="btn-send-form-contact" type="submit">
+            <button
+              id="btn-send-form-contact"
+              type="submit"
+              disabled={fieldsLoading}
+              onClick={t}
+            >
               <Translator path="form_contact.btn_text" />
             </button>
           </fieldset>

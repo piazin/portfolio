@@ -7,11 +7,13 @@ import Translator from '../i18n/Translator';
 import BoxInfoContact from './BoxInfoContact';
 
 function SectionContact() {
-  const [fields, setFields] = useState({
+  const initialStateFields = {
     name: '',
     email: '',
     message: '',
-  });
+  };
+
+  const [fields, setFields] = useState(initialStateFields);
 
   const [fieldsLoading, setFieldsLoading] = useState(false);
 
@@ -25,8 +27,12 @@ function SectionContact() {
         fields
       );
       setFieldsLoading(false);
+      showAlert('success', 'Formulario recebido com sucesso!');
+      setFields(initialStateFields);
     } catch (error) {
       setFieldsLoading(false);
+      showAlert('error', 'Ops ocorreu um erro ao enviar o formulario');
+      setFields(initialStateFields);
       console.error('🚀 ~ error', error.message);
     }
   }
@@ -37,10 +43,10 @@ function SectionContact() {
       [e.target.name]: e.target.value,
     });
 
-  const t = () => {
+  const showAlert = (type, title) => {
     const Toast = Swal.mixin({
       toast: true,
-      position: 'top-end',
+      position: 'bottom-end',
       showConfirmButton: false,
       timer: 3000,
       timerProgressBar: true,
@@ -51,8 +57,10 @@ function SectionContact() {
     });
 
     Toast.fire({
-      icon: 'success',
-      title: 'Signed in successfully',
+      icon: type,
+      title,
+      background: '#1e1e1e',
+      color: '#fff',
     });
   };
 
@@ -60,7 +68,7 @@ function SectionContact() {
     <>
       <div className="hr-wave-background"></div>
       <div className="content-contact-section">
-        <form id="form-contact">
+        <form id="form-contact" onSubmit={submitForm}>
           <fieldset className="fieldset-form-contact">
             <input
               value={fields.name}
@@ -104,7 +112,6 @@ function SectionContact() {
               id="btn-send-form-contact"
               type="submit"
               disabled={fieldsLoading}
-              onClick={t}
             >
               <Translator path="form_contact.btn_text" />
             </button>

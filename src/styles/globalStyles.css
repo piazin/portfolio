@@ -23,6 +23,11 @@ html {
   scroll-behavior: smooth;
 }
 
+#root {
+  margin: 0 auto;
+  width: 100vw;
+}
+
 ::-webkit-scrollbar {
   width: 0;
 }

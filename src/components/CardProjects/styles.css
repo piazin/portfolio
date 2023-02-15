@@ -89,3 +89,13 @@
     background-color: red;
   }
 }
+
+@media (max-width: 325px) {
+  .card-project-text-description {
+    font-size: 0.7rem;
+  }
+
+  .link-to-github {
+    font-size: 0.8rem;
+  }
+}

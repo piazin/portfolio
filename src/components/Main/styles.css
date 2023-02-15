@@ -1,5 +1,7 @@
 #container {
-  position: relative;
+  min-height: 100vh;
+  margin: 0 auto;
+  max-width: 1920px;
 }
 
 #section-about {
@@ -14,7 +16,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem 2rem 5rem 1rem;
+  padding: 3rem 1rem 5rem 1rem;
 }
 
 .about-container {
@@ -127,8 +129,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
-  padding: 6rem 0rem;
+  gap: 6rem;
+  padding: 6rem 1rem;
 }
 
 /*@media 1200*/
@@ -184,5 +186,29 @@
   .section-img span {
     width: 230px;
     height: 380px;
+  }
+}
+
+@media (max-width: 351px) {
+  .section-img span:nth-child(1) {
+    width: 183px;
+    height: 265px;
+  }
+
+  .section-img span:nth-child(2) {
+    width: 164px;
+    height: 287px;
+  }
+
+  .about-text__my-name {
+    font-size: 1.5rem;
+  }
+
+  .about-presentation-text {
+    font-size: 0.7rem;
+  }
+
+  .about-container p {
+    font-size: 0.8rem;
   }
 }

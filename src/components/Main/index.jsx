@@ -118,19 +118,34 @@ function Main() {
 
         <div className="container-projects">
           <CardProject
-            title="API REST CFP"
+            title="API CFP"
             description="API de movimentações financeiras, deselvolvida para meu TCC da faculdade."
             name_repo="api-rest-cfp"
             stacks={['typescript', 'nodejs', 'mongodb', 'google-cloud']}
             background_image="https://blog.rocketseat.com.br/content/images/size/w600/2018/12/adonis-reactjs-react-native-1.png"
           />
-
           <CardProject
             title="Redid Blog"
             name_repo="redid"
             description="Pequeno blog de noticias techs."
             stacks={['javascript', 'nodejs', 'css3', 'html5']}
             background_image="https://camo.githubusercontent.com/6f61540b84024e0c5d8acd34ec30c05fce6d990e40c094263fc56c5737ae456f/68747470733a2f2f696d61676573322e696d67626f782e636f6d2f39662f65642f47746571793972445f6f2e676966"
+          />
+
+          <CardProject
+            title="OneBitFlix API"
+            name_repo="onebitflix"
+            description="API para gerenciar cursos, videos e usuários de um EAD"
+            stacks={['nodejs', 'typescript']}
+            background_image="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/06/o-que-e-hateoas-400x280.png"
+          />
+
+          <CardProject
+            title="Chat Bot"
+            name_repo="bot-zap"
+            description="Chat Bot feito para aberturas de chamados do T.I."
+            stacks={['nodejs', 'typescript']}
+            background_image="https://cdn.elearningindustry.com/wp-content/uploads/2022/12/shutterstock_1180950625.jpg"
           />
 
           <CardProject
@@ -143,27 +158,11 @@ function Main() {
           />
 
           <CardProject
-            title="APP CFP"
-            name_repo="mobile-cfp"
-            description="Controle financeiro pessoal."
-            stacks={['javascript', 'react', 'css3']}
-            background_image="https://blog.rocketseat.com.br/content/images/size/w2000/2018/12/5-erros-comuns-de-um-desenvolvedor-react-react-native.png"
-          />
-
-          <CardProject
-            title="Chat Bot"
-            name_repo="bot-zap"
-            description="Chat Bot feito para aberturas de chamados do T.I."
-            stacks={['nodejs', 'typescript']}
-            background_image="https://cdn.elearningindustry.com/wp-content/uploads/2022/12/shutterstock_1180950625.jpg"
-          />
-
-          <CardProject
-            title="API USERS"
-            name_repo="api-users"
-            description="API REST de cadastro de usuários."
-            stacks={['nodejs', 'javascript', 'postgresql']}
-            background_image="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/06/o-que-e-hateoas-400x280.png"
+            title="OneBitFlix Web"
+            name_repo="onebitflix_web"
+            description="EAD inspirado na Netflix"
+            stacks={['typescript', 'nextjs', 'sass', 'swr']}
+            background_image="https://raw.githubusercontent.com/piazin/onebitflix_web/main/public/demos/home.png"
           />
         </div>
       </section>

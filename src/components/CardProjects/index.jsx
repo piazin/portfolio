@@ -52,6 +52,8 @@ function CardProject({
                       ? '#2f74c0'
                       : stack == 'css3'
                       ? '#264DE4'
+                      : stack == 'sass'
+                      ? '#C36291'
                       : stack == 'html5'
                       ? '#E54C21'
                       : stack == 'react'

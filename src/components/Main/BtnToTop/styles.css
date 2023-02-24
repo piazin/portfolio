@@ -2,7 +2,6 @@
   border-radius: 50%;
   bottom: 1rem;
   border: none;
-  cursor: pointer;
   opacity: 0;
   background-color: var(--bg-color-dark);
   position: fixed;
@@ -11,6 +10,12 @@
   width: 3.5rem;
   transition: all 0.25s;
   z-index: 15;
+  user-select: none;
+}
+
+.btn-to-top-is-visible {
+  opacity: 1 !important;
+  cursor: pointer;
 }
 
 @media (max-width: 360px) {

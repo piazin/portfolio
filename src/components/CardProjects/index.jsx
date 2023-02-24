@@ -10,6 +10,10 @@ function CardProject({
   background_image,
   link_to_live_app,
 }) {
+  function generateId(stack) {
+    const id = Math.floor(Math.random() * 100) + stack.length;
+    return id;
+  }
   return (
     <div
       className="card-project up-animation"
@@ -40,7 +44,7 @@ function CardProject({
           <span className="card-project-stacks">
             {stacks?.map((stack) => (
               <i
-                key={stack}
+                key={generateId(stack)}
                 className={`bx bxl-${stack} bx-sm icon`}
                 style={{
                   color: `${

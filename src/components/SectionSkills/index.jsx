@@ -19,7 +19,7 @@ import NestLogo from '../../assets/svg/tech/nestjs-icon.svg';
 import SassLogo from '../../assets/svg/tech/sass-lang-icon.svg';
 import HtmlLogo from '../../assets/svg/tech/w3_html5-icon.svg';
 import CssLogo from '../../assets/svg/tech/w3_css-icon.svg';
-import JestLogo from '../../assets/svg/tech/jest-2.svg';
+import TailwindCssLogo from '../../assets/svg/tech/tailwindcss-icon.svg';
 import TypeScriptLogo from '../../assets/svg/tech/typescript.svg';
 import PrismaLogo from '../../assets/svg/tech/prisma-4.svg';
 
@@ -113,6 +113,11 @@ export default function SectionSkills() {
               className="technologies-skills"
             />
             <img src={CssLogo} alt="css-logo" className="technologies-skills" />
+            <img
+              src={TailwindCssLogo}
+              alt="tailwind-logo"
+              className="technologies-skills"
+            />
             <img
               src={SassLogo}
               alt="sass-logo"

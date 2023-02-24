@@ -10,7 +10,7 @@ export default {
     main: {
       about: 'hello my name is',
       intro:
-        'Back End Developer with more than 1 year of experience in a large company and freelancer. Proficient in JavaScript/Typescript, NodeJS/NestJS, PostgreSQL/MongoDB and Prisma/Mongoose.',
+        'Web developer with more than 1 year of experience in a large company and freelancer. proficient in JavaScript/Typescript, NodeJS/NestJS, PostgreSQL/MongoDB and Prisma/Mongoose.',
     },
     section_header: {
       services: 'services',

@@ -71,7 +71,7 @@ export default {
         3: 'High school',
       },
       more_about:
-        'For 2+ years, I have been continuously learning in the field of back-end and experimenting with new technologies and frameworks, and here you can see a summary of my skills.',
+        'For more than 2 years I have continuously learned in the field of web development and experimented with new technologies and frameworks and here you can see a summary of my skills.',
       tecs: 'Technologies',
       tools: 'Tools',
     },

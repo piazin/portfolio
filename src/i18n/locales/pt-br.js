@@ -71,7 +71,7 @@ export default {
         3: 'Ensino Medio',
       },
       more_about:
-        'Por mais de 2 anos, tenho aprendido continuamente na área de back-end e experimentado novas tecnologias e estruturas, e aqui você pode ver um resumo de minhas habilidades',
+        'Por mais de 2 anos, tenho aprendido continuamente na área de desenvolvimento web e experimentado novas tecnologias e estruturas, e aqui você pode ver um resumo de minhas habilidades',
       tecs: 'Tecnologias',
       tools: 'Ferramentas',
     },

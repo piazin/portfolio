@@ -10,7 +10,7 @@ export default {
     main: {
       about: 'Olá meu nome é',
       intro:
-        'Desenvolvedor Back End com mais de 1 ano de experiência em uma grande empressa e freelancer. Proficiente em JavaScript/Typescript, NodeJS/NestJS,  PostgreSQL/MongoDB e Prisma/Mongoose.',
+        'Desenvolvedor Web com mais de 1 ano de experiência em uma grande empressa e freelancer. Proficiente em JavaScript/Typescript, NodeJS/NestJS, ReactJS/NextJS, PostgreSQL/MongoDB e Prisma/Mongoose.',
     },
     section_header: {
       services: 'serviços',
@@ -71,7 +71,7 @@ export default {
         3: 'Ensino Medio',
       },
       more_about:
-        'Por mais de 2 anos, tenho aprendido continuamente na área de back-end e experimentado novas tecnologias e estruturas, e aqui você pode ver um resumo de minhas habilidades',
+        'Por mais de 2 anos, tenho aprendido continuamente na área de desenvolvimento web e experimentado novas tecnologias e estruturas, e aqui você pode ver um resumo de minhas habilidades',
       tecs: 'Tecnologias',
       tools: 'Ferramentas',
     },

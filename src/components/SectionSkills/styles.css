@@ -94,7 +94,8 @@
 .technologies-skills {
   max-width: 54px;
   max-height: 54px;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
 
 .box-tech-skills,

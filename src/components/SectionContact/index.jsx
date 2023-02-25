@@ -31,9 +31,8 @@ function SectionContact() {
       setFields(initialStateFields);
     } catch (error) {
       setFieldsLoading(false);
-      showAlert('error', 'Ops ocorreu um erro ao enviar o formulario');
+      showAlert('error', 'Ops! ainda estamos em desenvolvimento');
       setFields(initialStateFields);
-      console.error('🚀 ~ error', error.message);
     }
   }
 
@@ -119,18 +118,13 @@ function SectionContact() {
         </form>
         <div className="info-contact">
           <BoxInfoContact
-            icon="bxs-phone"
-            desc="43 9999-9999"
-            title={<Translator path="footer.phone" />}
-          />
-          <BoxInfoContact
             icon="bx-envelope"
             desc="ls4803326@gmail.com"
             title="Email"
           />
           <BoxInfoContact
             icon="bx-current-location"
-            desc="Mauá da Serra, PR"
+            desc="Paraná, Brazil"
             title={<Translator path="footer.addres" />}
           />
         </div>

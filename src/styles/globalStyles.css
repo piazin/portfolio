@@ -47,6 +47,7 @@ html {
   --min-border-radius: 0.3rem;
 }
 
+.right-animation,
 .left-animation,
 .up-animation {
   opacity: 0;
@@ -59,6 +60,9 @@ html {
 }
 .left-animation {
   transform: translateX(100%);
+}
+.right-animation {
+  transform: translateX(-100%);
 }
 
 .show-elements-animation {

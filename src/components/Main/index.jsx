@@ -91,6 +91,7 @@ function Main() {
               <Translator path="card_services.web_dev.description" />
             }
             icon_type="bx-globe"
+            animationType="left-animation"
           />
           <CardServices
             title={<Translator path="card_services.node_js.title" />}
@@ -98,6 +99,7 @@ function Main() {
               <Translator path="card_services.node_js.description" />
             }
             icon_type="bxl-nodejs"
+            animationType="up-animation"
           />
           <CardServices
             title={<Translator path="card_services.app_dev.title" />}
@@ -105,6 +107,7 @@ function Main() {
               <Translator path="card_services.app_dev.description" />
             }
             icon_type="bxl-javascript"
+            animationType="left-animation"
           />
         </div>
       </section>

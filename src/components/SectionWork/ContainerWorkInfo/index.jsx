@@ -1,5 +1,5 @@
-import React from "react";
-import "../styles.css";
+import React from 'react';
+import '../styles.css';
 
 function ContainerWorkInfo({
   position,
@@ -12,10 +12,10 @@ function ContainerWorkInfo({
 }) {
   var t = [];
   return (
-    <div className="container-work-info left-animation">
+    <div className="container-work-info" data-aos="fade-left">
       <div className="box-business-info">
         <h2 className="position-work">
-          {position}{" "}
+          {position}{' '}
           <a href={businessLink} target="_blank" rel="external">
             {business}
           </a>

@@ -9,6 +9,7 @@ function CardProject({
   stacks,
   background_image,
   link_to_live_app,
+  animationType,
 }) {
   function generateId(stack) {
     const id = Math.floor(Math.random() * 100) + stack.length;
@@ -16,7 +17,8 @@ function CardProject({
   }
   return (
     <div
-      className="card-project up-animation"
+      className="card-project"
+      data-aos={animationType}
       style={{
         backgroundImage: `url(${
           background_image

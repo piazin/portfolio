@@ -96,32 +96,40 @@ export default function SectionSkills() {
               alt="node-logo"
               className="technologies-skills left-animation"
             />
-            <img src={EXLogo} alt="node-logo" className="technologies-skills" />
+            <img
+              src={EXLogo}
+              alt="node-logo"
+              className="technologies-skills left-animation"
+            />
             <img
               src={NestLogo}
               alt="nest-logo"
-              className="technologies-skills"
+              className="technologies-skills left-animation"
             />
             <img
               src={ReactLogo}
               alt="react-logo"
-              className="technologies-skills"
+              className="technologies-skills left-animation"
             />
             <img
               src={HtmlLogo}
               alt="html-logo"
-              className="technologies-skills"
+              className="technologies-skills left-animation"
             />
-            <img src={CssLogo} alt="css-logo" className="technologies-skills" />
+            <img
+              src={CssLogo}
+              alt="css-logo"
+              className="technologies-skills left-animation"
+            />
             <img
               src={TailwindCssLogo}
               alt="tailwind-logo"
-              className="technologies-skills"
+              className="technologies-skills left-animation"
             />
             <img
               src={SassLogo}
               alt="sass-logo"
-              className="technologies-skills"
+              className="technologies-skills left-animation"
             />
             <img
               src={AwsLogo}

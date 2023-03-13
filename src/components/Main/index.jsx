@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import Translator from '../i18n/Translator';
 import './styles.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import animationElements from '../../scripts/amimationElements';
 
 import SectionWork from '../SectionWork';
@@ -13,9 +15,7 @@ import ButtonToTop from './BtnToTop';
 
 function Main() {
   useEffect(() => {
-    animationElements('.card-service');
-    animationElements('.card-project');
-    animationElements('.container-work-info');
+    Aos.init({ once: true, duration: 600 });
     animationElements('.course-info');
     animationElements('.technologies-skills');
   }, []);
@@ -91,7 +91,7 @@ function Main() {
               <Translator path="card_services.web_dev.description" />
             }
             icon_type="bx-globe"
-            animationType="left-animation"
+            animationType="fade-up"
           />
           <CardServices
             title={<Translator path="card_services.node_js.title" />}
@@ -99,7 +99,7 @@ function Main() {
               <Translator path="card_services.node_js.description" />
             }
             icon_type="bxl-nodejs"
-            animationType="up-animation"
+            animationType="fade-up"
           />
           <CardServices
             title={<Translator path="card_services.app_dev.title" />}
@@ -107,7 +107,7 @@ function Main() {
               <Translator path="card_services.app_dev.description" />
             }
             icon_type="bxl-javascript"
-            animationType="left-animation"
+            animationType="fade-up"
           />
         </div>
       </section>
@@ -126,6 +126,7 @@ function Main() {
             name_repo="api-rest-cfp"
             stacks={['typescript', 'nodejs', 'mongodb', 'google-cloud']}
             background_image="https://blog.rocketseat.com.br/content/images/size/w600/2018/12/adonis-reactjs-react-native-1.png"
+            animationType="fade-up-right"
           />
           <CardProject
             title="Redid Blog"
@@ -133,6 +134,7 @@ function Main() {
             description="Pequeno blog de noticias techs."
             stacks={['javascript', 'nodejs', 'css3', 'html5']}
             background_image="https://camo.githubusercontent.com/6f61540b84024e0c5d8acd34ec30c05fce6d990e40c094263fc56c5737ae456f/68747470733a2f2f696d61676573322e696d67626f782e636f6d2f39662f65642f47746571793972445f6f2e676966"
+            animationType="fade-up"
           />
 
           <CardProject
@@ -141,6 +143,7 @@ function Main() {
             description="API para gerenciar cursos, videos e usuários de um EAD"
             stacks={['nodejs', 'typescript']}
             background_image="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/06/o-que-e-hateoas-400x280.png"
+            animationType="fade-up-left"
           />
 
           <CardProject
@@ -149,6 +152,7 @@ function Main() {
             description="Chat Bot feito para aberturas de chamados do T.I."
             stacks={['nodejs', 'typescript']}
             background_image="https://cdn.elearningindustry.com/wp-content/uploads/2022/12/shutterstock_1180950625.jpg"
+            animationType="fade-up-right"
           />
 
           <CardProject
@@ -158,6 +162,7 @@ function Main() {
             stacks={['javascript', 'react', 'css3']}
             background_image="https://raw.githubusercontent.com/piazin/portfolio/main/src/assets/preview.png"
             link_to_live_app="https://portfolio-five-bay-45.vercel.app/"
+            animationType="fade-up"
           />
 
           <CardProject
@@ -166,6 +171,7 @@ function Main() {
             description="EAD inspirado na Netflix"
             stacks={['typescript', 'nextjs', 'sass', 'swr']}
             background_image="https://raw.githubusercontent.com/piazin/onebitflix_web/main/public/demos/home.png"
+            animationType="fade-up-left"
           />
         </div>
       </section>

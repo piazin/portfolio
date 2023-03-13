@@ -6,10 +6,10 @@ export default function animationElements(className) {
         return;
       }
       if (entry.isIntersecting) {
-        entry.target.classList.add("show-elements-animation");
+        entry.target.classList.add('show-elements-animation');
         elementsShown.push(String(entry.target.className));
       } else {
-        entry.target.classList.remove("show-elements-animation");
+        entry.target.classList.remove('show-elements-animation');
       }
     });
   });

@@ -11,10 +11,6 @@ function CardProject({
   link_to_live_app,
   animationType,
 }) {
-  function generateId(stack) {
-    const id = Math.floor(Math.random() * 100) + stack.length;
-    return id;
-  }
   return (
     <div
       className="card-project"
@@ -29,12 +25,7 @@ function CardProject({
     >
       {link_to_live_app ? (
         <>
-          <a
-            href={link_to_live_app}
-            target="_blank"
-            rel="external"
-            className="link-to-app"
-          ></a>
+          <a href={link_to_live_app} target="_blank" rel="external" className="link-to-app"></a>
           <span className="record-live"></span>
         </>
       ) : null}
@@ -44,9 +35,9 @@ function CardProject({
         <p className="card-project-text-description">{description}</p>
         <div className="card-project-content-description">
           <span className="card-project-stacks">
-            {stacks?.map((stack) => (
+            {stacks?.map((stack, index) => (
               <i
-                key={generateId(stack)}
+                key={index}
                 className={`bx bxl-${stack} bx-sm icon`}
                 style={{
                   color: `${

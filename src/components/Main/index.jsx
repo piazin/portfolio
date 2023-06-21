@@ -62,12 +62,7 @@ function Main() {
             >
               <i className="bx bxl-instagram bx-sm"></i>
             </a>
-            <a
-              href="https://dev.to/lucas_fs"
-              target="_blank"
-              rel="external"
-              className="icon-link"
-            >
+            <a href="https://dev.to/lucas_fs" target="_blank" rel="external" className="icon-link">
               <i className="bx bxl-dev-to bx-sm"></i>
             </a>
           </div>
@@ -87,25 +82,19 @@ function Main() {
         <div className="container-services">
           <CardServices
             title={<Translator path="card_services.web_dev.title" />}
-            description={
-              <Translator path="card_services.web_dev.description" />
-            }
+            description={<Translator path="card_services.web_dev.description" />}
             icon_type="bx-globe"
             animationType="fade-up"
           />
           <CardServices
             title={<Translator path="card_services.node_js.title" />}
-            description={
-              <Translator path="card_services.node_js.description" />
-            }
+            description={<Translator path="card_services.node_js.description" />}
             icon_type="bxl-nodejs"
             animationType="fade-up"
           />
           <CardServices
             title={<Translator path="card_services.app_dev.title" />}
-            description={
-              <Translator path="card_services.app_dev.description" />
-            }
+            description={<Translator path="card_services.app_dev.description" />}
             icon_type="bxl-javascript"
             animationType="fade-up"
           />
@@ -126,6 +115,7 @@ function Main() {
             name_repo="api-rest-cfp"
             stacks={['typescript', 'nodejs', 'mongodb', 'google-cloud']}
             background_image="https://blog.rocketseat.com.br/content/images/size/w600/2018/12/adonis-reactjs-react-native-1.png"
+            link_to_live_app="https://api.lucasouza.tech/"
             animationType="fade-up-right"
           />
           <CardProject

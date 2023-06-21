@@ -22,10 +22,8 @@ function SectionContact() {
     setFieldsLoading(true);
 
     try {
-      var result = await axios.post(
-        'http://localhost:3333/send/ls4803326@gmail.com',
-        fields
-      );
+      await axios.post('https://mailman.lucasouza.tech/send/ls4803326@gmail.com', fields);
+
       setFieldsLoading(false);
       showAlert('success', 'Formulario recebido com sucesso!');
       setFields(initialStateFields);
@@ -107,21 +105,17 @@ function SectionContact() {
               className="form-fields form-input"
               disabled={fieldsLoading}
             ></textarea>
-            <button
-              id="btn-send-form-contact"
-              type="submit"
-              disabled={fieldsLoading}
-            >
-              <Translator path="form_contact.btn_text" />
+            <button id="btn-send-form-contact" type="submit" disabled={fieldsLoading}>
+              {fieldsLoading ? (
+                <span className="spinner"></span>
+              ) : (
+                <Translator path="form_contact.btn_text" />
+              )}
             </button>
           </fieldset>
         </form>
         <div className="info-contact">
-          <BoxInfoContact
-            icon="bx-envelope"
-            desc="ls4803326@gmail.com"
-            title="Email"
-          />
+          <BoxInfoContact icon="bx-envelope" desc="ls4803326@gmail.com" title="Email" />
           <BoxInfoContact
             icon="bx-current-location"
             desc="Paraná, Brazil"

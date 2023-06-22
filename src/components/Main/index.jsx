@@ -147,12 +147,11 @@ function Main() {
           />
 
           <CardProject
-            title="Portfolio"
-            name_repo="portfolio"
-            description="Portifolio desenvolvido em React JS."
-            stacks={['javascript', 'react', 'css3']}
-            background_image="https://raw.githubusercontent.com/piazin/portfolio/main/src/assets/preview.png"
-            link_to_live_app="https://portfolio-five-bay-45.vercel.app/"
+            title="Mailman"
+            name_repo="mailman"
+            description="Mailman é um serviço que permite enviar e-mails através de um formulário HTML simples."
+            stacks={['nodejs', 'typescript']}
+            background_image="https://raw.githubusercontent.com/piazin/mailman/main/public/logo.png"
             animationType="fade-up"
           />
 

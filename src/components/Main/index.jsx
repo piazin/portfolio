@@ -134,6 +134,7 @@ function Main() {
             stacks={['nodejs', 'typescript']}
             background_image="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/06/o-que-e-hateoas-400x280.png"
             animationType="fade-up-left"
+            link_to_live_app="https://onebitflix-web.lucasouza.tech/home"
           />
 
           <CardProject
@@ -162,6 +163,7 @@ function Main() {
             stacks={['typescript', 'nextjs', 'sass', 'swr']}
             background_image="https://raw.githubusercontent.com/piazin/onebitflix_web/main/public/demos/home.png"
             animationType="fade-up-left"
+            link_to_live_app="https://onebitflix-web.lucasouza.tech/home"
           />
         </div>
       </section>

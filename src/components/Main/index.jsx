@@ -118,14 +118,6 @@ function Main() {
             link_to_live_app="https://api.lucasouza.tech/"
             animationType="fade-up-right"
           />
-          <CardProject
-            title="Redid Blog"
-            name_repo="redid"
-            description="Pequeno blog de noticias techs."
-            stacks={['javascript', 'nodejs', 'css3', 'html5']}
-            background_image="https://camo.githubusercontent.com/6f61540b84024e0c5d8acd34ec30c05fce6d990e40c094263fc56c5737ae456f/68747470733a2f2f696d61676573322e696d67626f782e636f6d2f39662f65642f47746571793972445f6f2e676966"
-            animationType="fade-up"
-          />
 
           <CardProject
             title="OneBitFlix API"
@@ -138,21 +130,13 @@ function Main() {
           />
 
           <CardProject
-            title="Chat Bot"
-            name_repo="bot-zap"
-            description="Chat Bot feito para aberturas de chamados do T.I."
-            stacks={['nodejs', 'typescript']}
-            background_image="https://cdn.elearningindustry.com/wp-content/uploads/2022/12/shutterstock_1180950625.jpg"
-            animationType="fade-up-right"
-          />
-
-          <CardProject
             title="Mailman"
             name_repo="mailman"
             description="Mailman é um serviço que permite enviar e-mails através de um formulário HTML simples."
             stacks={['nodejs', 'typescript']}
             background_image="https://raw.githubusercontent.com/piazin/mailman/main/public/logo.png"
             animationType="fade-up"
+            link_to_live_app="https://github.com/piazin/mailman"
           />
 
           <CardProject
@@ -163,6 +147,24 @@ function Main() {
             background_image="https://raw.githubusercontent.com/piazin/onebitflix_web/main/public/demos/home.png"
             animationType="fade-up-left"
             link_to_live_app="https://onebitflix-web.lucasouza.tech/home"
+          />
+
+          <CardProject
+            title="Chat Bot"
+            name_repo="bot-zap"
+            description="Chat Bot feito para aberturas de chamados do T.I."
+            stacks={['nodejs', 'typescript']}
+            background_image="https://cdn.elearningindustry.com/wp-content/uploads/2022/12/shutterstock_1180950625.jpg"
+            animationType="fade-up-right"
+          />
+          <CardProject
+            title="Redid Blog"
+            name_repo="redid"
+            description="Pequeno blog de noticias techs."
+            stacks={['javascript', 'nodejs', 'css3', 'html5']}
+            background_image="https://camo.githubusercontent.com/6f61540b84024e0c5d8acd34ec30c05fce6d990e40c094263fc56c5737ae456f/68747470733a2f2f696d61676573322e696d67626f782e636f6d2f39662f65642f47746571793972445f6f2e676966"
+            animationType="fade-up"
+            link_to_live_app="https://redid.lucasouza.tech/"
           />
         </div>
       </section>

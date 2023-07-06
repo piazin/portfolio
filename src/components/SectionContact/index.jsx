@@ -25,7 +25,7 @@ function SectionContact() {
       await axios.post('https://mailman.lucasouza.tech/send/ls4803326@gmail.com', fields);
 
       setFieldsLoading(false);
-      showAlert('success', 'Formulario recebido com sucesso!');
+      showAlert('success', 'Formulário enviado com sucesso!');
       setFields(initialStateFields);
     } catch (error) {
       setFieldsLoading(false);

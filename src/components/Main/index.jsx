@@ -151,8 +151,8 @@ function Main() {
 
           <CardProject
             title="Chat Bot"
-            name_repo="bot-zap"
-            description="Chat Bot feito para aberturas de chamados do T.I."
+            name_repo="bot_zap"
+            description="Assistente virtual para o atendimento de usuários da empresa"
             stacks={['nodejs', 'typescript']}
             background_image="https://cdn.elearningindustry.com/wp-content/uploads/2022/12/shutterstock_1180950625.jpg"
             animationType="fade-up"

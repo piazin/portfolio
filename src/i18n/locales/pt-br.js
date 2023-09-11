@@ -1,5 +1,8 @@
 export default {
   translations: {
+    head: {
+      title: 'Portfólio | Lucas Souza',
+    },
     header: {
       services: 'Serviços',
       projects: 'Projetos',
@@ -17,7 +20,7 @@ export default {
       services_describe: 'Especializado em',
       projects: 'meus trabalhos',
       projects_describe: 'Portfólios em destaque',
-      experience: 'plano de carreira',
+      experience: 'Carreira',
       experience_describe: 'Experiências de trabalho',
       skills: 'Skills',
       skills_describe: 'Skills',
@@ -64,7 +67,7 @@ export default {
 
     section_skills: {
       title: 'Educação e Habilidades',
-      sub_title: 'CAMINHO DE APRENDIZAGEM',
+      sub_title: 'ESTUDOS E EXPERIÊNCIA PROFISSIONAL',
       education_history: {
         1: 'Analise e Desenvolvimento de Sistemas',
         2: 'Formação Full Stack JS',

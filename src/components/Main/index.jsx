@@ -1,24 +1,31 @@
+import Aos from 'aos';
+import './styles.css';
+import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
 import Translator from '../i18n/Translator';
-import './styles.css';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next';
 import animationElements from '../../scripts/amimationElements';
 
-import SectionWork from '../SectionWork';
-import SectionHeader from '../SectionHeader';
-import SectionSkills from '../SectionSkills';
-import SectionContact from '../SectionContact';
-import CardServices from '../CardServices';
-import CardProject from '../CardProjects';
 import ButtonToTop from './BtnToTop';
+import SectionWork from '../SectionWork';
+import CardProject from '../CardProjects';
+import CardServices from '../CardServices';
+import SectionSkills from '../SectionSkills';
+import SectionHeader from '../SectionHeader';
+import SectionContact from '../SectionContact';
 
 function Main() {
+  const { t, i18n } = useTranslation();
+
   useEffect(() => {
     Aos.init({ once: true, duration: 600 });
     animationElements('.course-info');
     animationElements('.technologies-skills');
   }, []);
+
+  useEffect(() => {
+    document.title = t('head.title');
+  }, [i18n.language]);
 
   return (
     <main id="container">

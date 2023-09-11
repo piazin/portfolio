@@ -1,3 +1,7 @@
+/**
+ * @summary Function to animate elements when they are in the viewport
+ * @param {String} className - Class name of the elements to animate
+ */
 export default function animationElements(className) {
   var elementsShown = [];
   var observer = new IntersectionObserver((entries) => {

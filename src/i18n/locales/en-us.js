@@ -1,5 +1,8 @@
 export default {
   translations: {
+    head: {
+      title: 'Portfolio | Lucas Souza',
+    },
     header: {
       services: 'Services',
       projects: 'Projects',

@@ -97,7 +97,7 @@
 .section-img span:nth-child(1) {
   background-image: url('../../assets/eu-ia.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: initial;
   background-repeat: no-repeat;
   z-index: 3;
 }
@@ -146,7 +146,7 @@
   }
 
   .section-img span {
-    width: 220px;
+    width: 265px;
     height: 380px;
   }
 }
@@ -185,7 +185,7 @@
   }
 
   .section-img span {
-    width: 230px;
+    width: 265px;
     height: 380px;
   }
 }

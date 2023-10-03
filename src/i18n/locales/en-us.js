@@ -13,7 +13,7 @@ export default {
     main: {
       about: 'hello my name is',
       intro:
-        'Web developer with more than 1 year of experience in a large company and freelancer. proficient in JavaScript/Typescript, NodeJS/NestJS, PostgreSQL/MongoDB and Prisma/Mongoose.',
+        'Web developer with more than 2 years of experience in a large company and freelancer. proficient in JavaScript/Typescript, NodeJS/NestJS, PostgreSQL/MongoDB and Prisma/Mongoose.',
     },
     section_header: {
       services: 'services',
@@ -51,15 +51,17 @@ export default {
     section_works: {
       sl_part: {
         actives: {
-          1: 'Technical support',
-          2: 'Computer maintenance',
-          3: 'VMWare Server Management',
+          1: 'Application development with NodeJS/NestJS',
+          2: 'AI-powered chatbot development (GPT-3))',
+          3: 'Creating applications with React Native',
+          4: 'Deploying applications with Docker',
+          5: 'Technician Support',
         },
       },
       freelancer: {
         actives: {
           1: 'Institutional sites',
-          2: 'E-commerces',
+          2: 'Landing pages',
           3: 'Control system',
         },
       },
@@ -74,7 +76,7 @@ export default {
         3: 'High school',
       },
       more_about:
-        'For more than 2 years I have continuously learned in the field of web development and experimented with new technologies and frameworks and here you can see a summary of my skills.',
+        'For more than 3 years I have continuously learned in the field of web development and experimented with new technologies and frameworks and here you can see a summary of my skills.',
       tecs: 'Technologies',
       tools: 'Tools',
     },

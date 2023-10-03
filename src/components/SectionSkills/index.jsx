@@ -60,7 +60,7 @@ export default function SectionSkills() {
                 <p className="course-name">
                   <Translator path="section_skills.education_history.2" />
                 </p>
-                <p className="course-period">2021 - 2022</p>
+                <p className="course-period">2020 - 2021</p>
               </div>
               <div className="course-info up-animation">
                 <p className="institution-name">João Plath</p>
@@ -81,118 +81,46 @@ export default function SectionSkills() {
             <h3 className="title-box-skills">
               <Translator path="section_skills.tecs" />
             </h3>
-            <img
-              src={JSLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
+            <img src={JSLogo} alt="node-logo" className="technologies-skills left-animation" />
             <img
               src={TypeScriptLogo}
               alt="node-logo"
               className="technologies-skills left-animation"
             />
-            <img
-              src={NodeLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
-            <img
-              src={EXLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
-            <img
-              src={NestLogo}
-              alt="nest-logo"
-              className="technologies-skills left-animation"
-            />
-            <img
-              src={ReactLogo}
-              alt="react-logo"
-              className="technologies-skills left-animation"
-            />
-            <img
-              src={HtmlLogo}
-              alt="html-logo"
-              className="technologies-skills left-animation"
-            />
-            <img
-              src={CssLogo}
-              alt="css-logo"
-              className="technologies-skills left-animation"
-            />
+            <img src={NodeLogo} alt="node-logo" className="technologies-skills left-animation" />
+            <img src={EXLogo} alt="node-logo" className="technologies-skills left-animation" />
+            <img src={NestLogo} alt="nest-logo" className="technologies-skills left-animation" />
+            <img src={ReactLogo} alt="react-logo" className="technologies-skills left-animation" />
+            <img src={HtmlLogo} alt="html-logo" className="technologies-skills left-animation" />
+            <img src={CssLogo} alt="css-logo" className="technologies-skills left-animation" />
             <img
               src={TailwindCssLogo}
               alt="tailwind-logo"
               className="technologies-skills left-animation"
             />
-            <img
-              src={SassLogo}
-              alt="sass-logo"
-              className="technologies-skills left-animation"
-            />
-            <img
-              src={AwsLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
-            <img
-              src={MongoLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
-            <img
-              src={PostSQLLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
+            <img src={SassLogo} alt="sass-logo" className="technologies-skills left-animation" />
+            <img src={AwsLogo} alt="node-logo" className="technologies-skills left-animation" />
+            <img src={MongoLogo} alt="node-logo" className="technologies-skills left-animation" />
+            <img src={PostSQLLogo} alt="node-logo" className="technologies-skills left-animation" />
 
-            <img
-              src={PrismaLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
+            <img src={PrismaLogo} alt="node-logo" className="technologies-skills left-animation" />
           </div>
 
           <div className="box-tools-skills">
             <h3 className="title-box-skills">
               <Translator path="section_skills.tools" />
             </h3>
-            <img
-              src={VSLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
+            <img src={VSLogo} alt="node-logo" className="technologies-skills left-animation" />
 
-            <img
-              src={GitLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
+            <img src={GitLogo} alt="node-logo" className="technologies-skills left-animation" />
 
-            <img
-              src={GitHubLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
+            <img src={GitHubLogo} alt="node-logo" className="technologies-skills left-animation" />
 
-            <img
-              src={PostmanLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
+            <img src={PostmanLogo} alt="node-logo" className="technologies-skills left-animation" />
 
-            <img
-              src={DockerLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
+            <img src={DockerLogo} alt="node-logo" className="technologies-skills left-animation" />
 
-            <img
-              src={VMLogo}
-              alt="node-logo"
-              className="technologies-skills left-animation"
-            />
+            <img src={VMLogo} alt="node-logo" className="technologies-skills left-animation" />
           </div>
         </div>
       </main>

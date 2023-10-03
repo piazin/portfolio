@@ -13,7 +13,7 @@ export default {
     main: {
       about: 'Olá meu nome é',
       intro:
-        'Desenvolvedor Web com mais de 1 ano de experiência em uma grande empressa e freelancer. Proficiente em JavaScript/Typescript, NodeJS/NestJS, ReactJS/NextJS, PostgreSQL/MongoDB e Prisma/Mongoose.',
+        'Desenvolvedor Web com mais de 2 anos de experiência em uma grande empressa e freelancer. Proficiente em JavaScript/Typescript, NodeJS/NestJS, ReactJS/NextJS, PostgreSQL/MongoDB e Prisma/Mongoose.',
     },
     section_header: {
       services: 'serviços',
@@ -51,15 +51,17 @@ export default {
     section_works: {
       sl_part: {
         actives: {
-          1: 'Suporte de Tecnico',
-          2: 'Manutenção de computadores',
-          3: 'Gerenciamento de Servidores com VMWare',
+          1: 'Desenvolvimento de aplicações com NodeJS/NestJS',
+          2: 'Desenvolvimento de chatbots com IA (GPT-3))',
+          3: 'Criação de aplicativos com React Native',
+          4: 'Deploy de aplicações com Docker',
+          5: 'Suporte de Tecnico',
         },
       },
       freelancer: {
         actives: {
           1: 'Sites institucionais',
-          2: 'E-commerces',
+          2: 'Landing pages',
           3: 'Sistemas de controle',
         },
       },
@@ -74,7 +76,7 @@ export default {
         3: 'Ensino Medio',
       },
       more_about:
-        'Por mais de 2 anos, tenho aprendido continuamente na área de desenvolvimento web e experimentado novas tecnologias e estruturas, e aqui você pode ver um resumo de minhas habilidades',
+        'Por mais de 3 anos, tenho aprendido continuamente na área de desenvolvimento web e experimentado novas tecnologias e estruturas, e aqui você pode ver um resumo de minhas habilidades',
       tecs: 'Tecnologias',
       tools: 'Ferramentas',
     },

@@ -10,6 +10,7 @@ function CardProject({
   background_image,
   link_to_live_app,
   animationType,
+  full_url_repo,
 }) {
   return (
     <div
@@ -67,7 +68,7 @@ function CardProject({
 
           <div className="card-project-github">
             <a
-              href={`https://github.com/piazin/${name_repo}`}
+              href={`${full_url_repo ? full_url_repo : `https://github.com/piazin/${name_repo}`} `}
               target="_blank"
               rel="external"
               className="link-to-github"

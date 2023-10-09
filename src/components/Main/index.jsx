@@ -13,6 +13,7 @@ import CardServices from '../CardServices';
 import SectionSkills from '../SectionSkills';
 import SectionHeader from '../SectionHeader';
 import SectionContact from '../SectionContact';
+import { Helmet } from 'react-helmet';
 
 function Main() {
   const { t, i18n } = useTranslation();
@@ -78,6 +79,13 @@ function Main() {
           <span></span>
           <span></span>
         </div>
+        <Helmet>
+          <meta
+            property="og:image"
+            content="https://www.lucasouza.tech/assets/eu-ia.75c6b45d.jpg"
+          />
+          <meta name="author" content="Lucas Souza" />
+        </Helmet>
       </section>
 
       {/* Section Services */}

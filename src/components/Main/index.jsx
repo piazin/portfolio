@@ -14,6 +14,8 @@ import SectionSkills from '../SectionSkills';
 import SectionHeader from '../SectionHeader';
 import SectionContact from '../SectionContact';
 
+import TabNewsIcon from '../../assets/svg/tech/tabnews.svg';
+
 function Main() {
   const { t, i18n } = useTranslation();
 
@@ -69,8 +71,13 @@ function Main() {
             >
               <i className="bx bxl-instagram bx-sm"></i>
             </a>
-            <a href="https://dev.to/lucas_fs" target="_blank" rel="external" className="icon-link">
-              <i className="bx bxl-dev-to bx-sm"></i>
+            <a
+              href="https://www.tabnews.com.br/lucasfsouza"
+              target="_blank"
+              rel="external"
+              className="icon-link"
+            >
+              <img src={TabNewsIcon} alt="tab news icon" className="icon-image" />
             </a>
           </div>
         </div>

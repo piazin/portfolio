@@ -79,6 +79,17 @@
   color: var(--text-color-sec);
 }
 
+.icon-link .icon-image {
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  transition: opacity 0.25s;
+}
+
+.icon-link:hover .icon-image {
+  opacity: 0.8;
+}
+
 .section-img {
   width: 40%;
   display: flex;

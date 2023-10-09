@@ -177,7 +177,7 @@ function Main() {
 
           <CardProject
             title="API MC"
-            name_repo="api-mc"
+            name_repo="api_mc"
             description="Boas práticas de desenvolvimento de API REST com Node.js e Express."
             stacks={['nodejs', 'typescript']}
             background_image="https://imageupload.io/ib/Ax0DtlfHbbwHr5l_1696337911.jpg"

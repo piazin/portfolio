@@ -187,8 +187,4 @@ label span:nth-child(3) {
   .nav {
     display: none;
   }
-
-  .menu-mobile {
-    display: flex;
-  }
 }

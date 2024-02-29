@@ -138,8 +138,7 @@ function Main() {
             description="API de movimentações financeiras, deselvolvida para meu TCC da faculdade."
             name_repo="api-rest-cfp"
             stacks={["typescript", "nodejs", "mongodb", "google-cloud"]}
-            background_image="https://imageupload.io/ib/8na54mMfohcQi80_1696340205.jpg"
-            link_to_live_app="https://api.lucasouza.tech/"
+            background_image="https://i.ibb.co/ZdVHNbj/DALL-E-2024-02-29-09-27-25-Imagine-a-scene-straight-out-of-a-cartoon-where-a-happy-excited-goldfish.webp"
             animationType="fade-up-right"
           />
 
@@ -148,7 +147,7 @@ function Main() {
             name_repo="routeify-express"
             description="Criei o pacote 'Routeify Express' para facilitar a criação de rotas no Express com decorators."
             stacks={["nodejs", "typescript"]}
-            background_image="https://i.imgur.com/0C3YaZV.jpeg"
+            background_image="https://i.ibb.co/KDq3S09/0C3YaZV.jpg"
             animationType="fade-up-left"
           />
 
@@ -164,13 +163,13 @@ function Main() {
           />
 
           <CardProject
-            title="OneBitFlix Web"
-            name_repo="onebitflix_web"
-            description="EAD inspirado na Netflix"
-            stacks={["typescript", "nextjs", "sass", "swr"]}
+            title="OneBitFlix"
+            name_repo="onebitflix"
+            description="Api de Cursos EAD"
+            stacks={["typescript", "nodejs"]}
             background_image="https://raw.githubusercontent.com/piazin/onebitflix_web/main/public/demos/home.png"
             animationType="fade-up-right"
-            link_to_live_app="https://onebitflix-web.lucasouza.tech/home"
+            link_to_live_app="https://github.com/piazin/onebitflix"
           />
 
           <CardProject
@@ -189,7 +188,6 @@ function Main() {
             stacks={["typescript", "nodejs", "nextjs"]}
             background_image="https://yt-fetch.lucasouza.tech/vit.png"
             animationType="fade-up-left"
-            link_to_live_app="https://yt-fetch.lucasouza.tech/"
           />
 
           <CardProject
@@ -197,7 +195,7 @@ function Main() {
             name_repo="api_mc"
             description="Boas práticas de desenvolvimento de API REST com Node.js e Express."
             stacks={["nodejs", "typescript"]}
-            background_image="https://imageupload.io/ib/Ax0DtlfHbbwHr5l_1696337911.jpg"
+            background_image="https://i.ibb.co/CBRSV6P/DALL-E-2024-02-29-09-29-28-Imagine-a-cutting-edge-futuristic-API-system-displayed-as-a-holographic-i.webp"
             animationType="fade-up-left"
           />
 
@@ -206,7 +204,7 @@ function Main() {
             name_repo="mobile-cfp"
             description="Aplicativo de movimentações financeiras, deselvolvido para meu TCC da faculdade."
             stacks={["react", "javascript"]}
-            background_image="https://imageupload.io/ib/Sm7dpR8Eghe5c3N_1696340088.jpg"
+            background_image="https://i.ibb.co/HTp7YJm/DALL-E-2024-02-29-09-31-11-Visualize-a-charming-scene-where-a-small-golden-fish-is-using-a-smartphon.webp"
             animationType="fade-up-left"
           />
         </div>

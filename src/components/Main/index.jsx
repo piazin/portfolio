@@ -163,13 +163,12 @@ function Main() {
           />
 
           <CardProject
-            title="OneBitFlix"
-            name_repo="onebitflix"
-            description="Api de Cursos EAD"
+            title="ocrmypdf-js"
+            name_repo="ocrmypdf-js"
+            description="Uma biblioteca que abstraí o uso do ocrmypdf para Node.js."
             stacks={["typescript", "nodejs"]}
-            background_image="https://raw.githubusercontent.com/piazin/onebitflix_web/main/public/demos/home.png"
+            background_image="https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/5caf654f22b7bd7c2643583956cf84397dc24156/docs/images/logo.svg"
             animationType="fade-up-right"
-            link_to_live_app="https://github.com/piazin/onebitflix"
           />
 
           <CardProject

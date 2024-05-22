@@ -134,12 +134,31 @@ function Main() {
 
         <div className="container-projects">
           <CardProject
-            title="API CFP"
-            description="API de movimentações financeiras, deselvolvida para meu TCC da faculdade."
-            name_repo="api-rest-cfp"
-            stacks={["typescript", "nodejs", "mongodb", "google-cloud"]}
-            background_image="https://i.ibb.co/ZdVHNbj/DALL-E-2024-02-29-09-27-25-Imagine-a-scene-straight-out-of-a-cartoon-where-a-happy-excited-goldfish.webp"
+            title="Manu Save Reels"
+            name_repo="insta-save-api"
+            description="API para baixar vídeos do Instagram. Construída usando arquitetura hexagonal."
+            stacks={["nodejs", "typescript"]}
+            background_image="https://i.ibb.co/F6qFJb6/Screenshot-from-2024-05-22-00-43-42.jpg"
+            animationType="fade-up"
+            link_to_live_app="https://manu-save-reels.vercel.app/"
+          />
+
+          <CardProject
+            title="ocrmypdf-js"
+            name_repo="ocrmypdf-js"
+            description="Uma biblioteca que abstraí o uso do ocrmypdf para Node.js."
+            stacks={["typescript", "nodejs"]}
+            background_image="https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/5caf654f22b7bd7c2643583956cf84397dc24156/docs/images/logo.svg"
             animationType="fade-up-right"
+          />
+
+          <CardProject
+            title="YT Fetch"
+            name_repo="ytfetch"
+            description="Serviço de download de vídeos do Youtube."
+            stacks={["typescript", "nodejs", "nextjs"]}
+            background_image="https://yt-fetch.lucasouza.tech/vit.png"
+            animationType="fade-up-left"
           />
 
           <CardProject
@@ -163,39 +182,21 @@ function Main() {
           />
 
           <CardProject
-            title="ocrmypdf-js"
-            name_repo="ocrmypdf-js"
-            description="Uma biblioteca que abstraí o uso do ocrmypdf para Node.js."
-            stacks={["typescript", "nodejs"]}
-            background_image="https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/5caf654f22b7bd7c2643583956cf84397dc24156/docs/images/logo.svg"
-            animationType="fade-up-right"
-          />
-
-          <CardProject
-            title="Chat Bot"
-            name_repo="bot_zap"
-            description="Assistente virtual para o atendimento de usuários"
-            stacks={["nodejs", "typescript"]}
-            background_image="https://cdn.elearningindustry.com/wp-content/uploads/2022/12/shutterstock_1180950625.jpg"
-            animationType="fade-up"
-          />
-
-          <CardProject
-            title="YT Fetch"
-            name_repo="ytfetch"
-            description="Serviço de download de vídeos do Youtube."
-            stacks={["typescript", "nodejs", "nextjs"]}
-            background_image="https://yt-fetch.lucasouza.tech/vit.png"
-            animationType="fade-up-left"
-          />
-
-          <CardProject
             title="API MC"
             name_repo="api_mc"
             description="Boas práticas de desenvolvimento de API REST com Node.js e Express."
             stacks={["nodejs", "typescript"]}
             background_image="https://i.ibb.co/CBRSV6P/DALL-E-2024-02-29-09-29-28-Imagine-a-cutting-edge-futuristic-API-system-displayed-as-a-holographic-i.webp"
             animationType="fade-up-left"
+          />
+
+          <CardProject
+            title="API CFP"
+            description="API de movimentações financeiras, deselvolvida para meu TCC da faculdade."
+            name_repo="api-rest-cfp"
+            stacks={["typescript", "nodejs", "mongodb", "google-cloud"]}
+            background_image="https://i.ibb.co/ZdVHNbj/DALL-E-2024-02-29-09-27-25-Imagine-a-scene-straight-out-of-a-cartoon-where-a-happy-excited-goldfish.webp"
+            animationType="fade-up-right"
           />
 
           <CardProject
